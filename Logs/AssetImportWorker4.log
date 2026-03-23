@@ -1,0 +1,225 @@
+2026-03-23T14:05:45.099Z|0x17908|[Licensing::Module] Trying to connect to existing licensing client channel...
+2026-03-23T14:05:45.099Z|0xa50c|Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+2026-03-23T14:05:45.099Z|0xa50c|OS: 'Windows 11  (10.0.26100) CoreSingleLanguage' Language: 'en' Physical Memory: 23983 MB
+2026-03-23T14:05:45.099Z|0x17908|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat" at "2026-03-23T14:05:45.0999016Z"
+2026-03-23T14:05:45.099Z|0xa50c|BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+2026-03-23T14:05:45.100Z|0xa50c|System  architecture: x64
+2026-03-23T14:05:45.100Z|0xa50c|Process architecture: x64
+2026-03-23T14:05:45.100Z|0xa50c|Date: 2026-03-23T14:05:45Z
+2026-03-23T14:05:45.246Z|0xa50c|
+COMMAND LINE ARGUMENTS:
+2026-03-23T14:05:45.246Z|0xa50c|C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+2026-03-23T14:05:45.246Z|0xa50c|-adb2
+2026-03-23T14:05:45.246Z|0xa50c|-batchMode
+2026-03-23T14:05:45.246Z|0xa50c|-noUpm
+2026-03-23T14:05:45.246Z|0xa50c|-name
+2026-03-23T14:05:45.246Z|0xa50c|AssetImportWorker4
+2026-03-23T14:05:45.246Z|0xa50c|-projectPath
+2026-03-23T14:05:45.246Z|0xa50c|D:/Work/rigidbody-fps-controller-tutorial
+2026-03-23T14:05:45.246Z|0xa50c|-logFile
+2026-03-23T14:05:45.246Z|0xa50c|Logs/AssetImportWorker4.log
+2026-03-23T14:05:45.246Z|0xa50c|-srvPort
+2026-03-23T14:05:45.246Z|0xa50c|59681
+2026-03-23T14:05:45.246Z|0xa50c|-licensingIpc
+2026-03-23T14:05:45.246Z|0xa50c|LicenseClient-Rajat
+2026-03-23T14:05:45.246Z|0xa50c|-job-worker-count
+2026-03-23T14:05:45.246Z|0xa50c|7
+2026-03-23T14:05:45.246Z|0xa50c|-background-job-worker-count
+2026-03-23T14:05:45.246Z|0xa50c|8
+2026-03-23T14:05:45.246Z|0xa50c|-gc-helper-count
+2026-03-23T14:05:45.246Z|0xa50c|1
+2026-03-23T14:05:45.246Z|0xa50c|-name
+2026-03-23T14:05:45.246Z|0xa50c|AssetImport
+2026-03-23T14:05:45.246Z|0xa50c|Successfully changed project path to: D:/Work/rigidbody-fps-controller-tutorial
+2026-03-23T14:05:45.247Z|0xa50c|D:/Work/rigidbody-fps-controller-tutorial
+2026-03-23T14:05:45.248Z|0xa50c|[UnityMemory] Configuration Parameters - Can be set up in boot.config
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-audio-worker=65536"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-gfx=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-allocator-temp-initial-block-size-main=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-background-worker=32768"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-job-worker=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-preload-manager=33554432"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-bucket-allocator-granularity=16"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-bucket-allocator-bucket-count=8"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-bucket-allocator-block-size=33554432"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-bucket-allocator-block-count=8"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-main-allocator-block-size=16777216"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-thread-allocator-block-size=16777216"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-gfx-main-allocator-block-size=16777216"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-gfx-thread-allocator-block-size=16777216"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-cache-allocator-block-size=4194304"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-typetree-allocator-block-size=2097152"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-profiler-bucket-allocator-granularity=16"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-profiler-bucket-allocator-block-count=8"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-profiler-allocator-block-size=16777216"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-profiler-editor-allocator-block-size=1048576"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-main=16777216"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-job-temp-allocator-block-size=2097152"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-job-temp-allocator-block-size-background=1048576"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+2026-03-23T14:05:45.248Z|0xa50c|    "memorysetup-temp-allocator-size-cloud-worker=32768"
+2026-03-23T14:05:45.257Z|0xa50c|Player connection [42252]  Target information:
+
+2026-03-23T14:05:45.257Z|0xa50c|Player connection [42252]  * "[IP] 192.168.0.124 [Port] 0 [Flags] 2 [Guid] 3999067215 [EditorId] 3999067215 [Version] 1048832 [Id] WindowsEditor(7,Rajat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+2026-03-23T14:05:45.257Z|0xa50c|Player connection [42252]  * "[IP] 192.168.3.121 [Port] 0 [Flags] 2 [Guid] 3999067215 [EditorId] 3999067215 [Version] 1048832 [Id] WindowsEditor(7,Rajat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+2026-03-23T14:05:45.259Z|0xa50c|Player connection [42252] Host joined multi-casting on [225.0.0.222:54997]...
+2026-03-23T14:05:45.260Z|0xa50c|Player connection [42252] Host joined alternative multi-casting on [225.0.0.222:34997]...
+2026-03-23T14:05:45.260Z|0xa50c|JobSystem: Creating JobQueue using job-worker-count value 7
+2026-03-23T14:05:45.265Z|0xa50c|Input System module state changed to: Initialized.
+2026-03-23T14:05:45.267Z|0xa50c|[Physics::Module] Initialized fallback backend.
+2026-03-23T14:05:45.267Z|0xa50c|[Physics::Module] Id: 0xdecafbad
+2026-03-23T14:05:45.319Z|0xa50c|Library Redirect Path: Library/
+2026-03-23T14:05:45.355Z|0xa50c|[Physics::Module] Selected backend.
+2026-03-23T14:05:45.355Z|0xa50c|[Physics::Module] Name: PhysX
+2026-03-23T14:05:45.355Z|0xa50c|[Physics::Module] Id: 0xf2b8ea05
+2026-03-23T14:05:45.355Z|0xa50c|[Physics::Module] SDK Version: 4.1.2
+2026-03-23T14:05:45.355Z|0xa50c|[Physics::Module] Integration Version: 1.0.0
+2026-03-23T14:05:45.355Z|0xa50c|[Physics::Module] Threading Mode: Multi-Threaded
+2026-03-23T14:05:45.363Z|0xa50c|Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+2026-03-23T14:05:45.363Z|0xa50c|Preloading 0 native plugins for Editor in 0.00 ms.
+2026-03-23T14:05:45.363Z|0xa50c|Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+2026-03-23T14:05:45.363Z|0xa50c|[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+2026-03-23T14:05:45.364Z|0xa50c|[Subsystems] Discovering subsystems at path D:/Work/rigidbody-fps-controller-tutorial/Assets
+2026-03-23T14:05:45.364Z|0xa50c|GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+2026-03-23T14:05:45.564Z|0xa50c|Direct3D:
+2026-03-23T14:05:45.564Z|0xa50c|    Version:  Direct3D 11.0 [level 11.1]
+2026-03-23T14:05:45.564Z|0xa50c|    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+2026-03-23T14:05:45.564Z|0xa50c|    Vendor:   NVIDIA
+2026-03-23T14:05:45.564Z|0xa50c|    VRAM:     3937 MB
+2026-03-23T14:05:45.564Z|0xa50c|    Driver:   32.0.15.7700
+2026-03-23T14:05:45.689Z|0xa50c|Initialize mono
+2026-03-23T14:05:45.689Z|0xa50c|Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+2026-03-23T14:05:45.689Z|0xa50c|Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+2026-03-23T14:05:45.689Z|0xa50c|Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+2026-03-23T14:05:45.689Z|0xa50c|Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+2026-03-23T14:05:45.742Z|0xa50c|Begin MonoManager ReloadAssembly
+2026-03-23T14:05:45.989Z|0xa50c|Registering precompiled unity dll's ...
+2026-03-23T14:05:45.990Z|0xa50c|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+2026-03-23T14:05:45.991Z|0xa50c|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+2026-03-23T14:05:45.992Z|0xa50c|[Licensing::Module] Licensing is not yet initialized.
+2026-03-23T14:05:46.113Z|0x17908|[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              b2676267e81c487fa2cd561bc9309359
+  Correlation Id:          b8f35902a78f3c863c901c9b91716de9
+  External correlation Id: 1615296476509343651
+  Machine Id:              bZLnVjDChyW3KAMtcXptXTvD4Rw=
+2026-03-23T14:05:46.113Z|0x17908|[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Rajat" (connect: 0.00s, validation: 0.00s, handshake: 1.01s)
+2026-03-23T14:05:46.113Z|0x17908|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat-notifications" at "2026-03-23T14:05:46.1132895Z"
+2026-03-23T14:05:46.113Z|0x17908|[Licensing::Module] Licensing Background thread has ended after 1.01s
+2026-03-23T14:05:46.113Z|0xa50c|[Licensing::Module] Licensing is initialized (took 0.12s).
+2026-03-23T14:05:46.115Z|0xa50c|[Licensing::Client] Successfully resolved entitlement details
+2026-03-23T14:05:46.116Z|0xa50c|[Licensing::Module] License group:
+  Id: 13469681201219-rendered-ideas-softgame-pvt-ltd-UnitXXXX
+  Product: Unity Pro
+  Type: Assigned
+  Expiration: 2026-04-07T00:00:00Z
+2026-03-23T14:05:46.116Z|0xa50c|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+2026-03-23T14:05:46.117Z|0xa50c|Registered in 0.127411 seconds.
+2026-03-23T14:05:46.384Z|0xa50c|- Loaded All Assemblies, in  0.642 seconds
+2026-03-23T14:05:46.482Z|0xa50c|Native extension for Android target not found
+2026-03-23T14:05:46.833Z|0xa50c|Android Extension - Scanning For ADB Devices 308 ms
+Native extension for WindowsStandalone target not found
+2026-03-23T14:05:46.834Z|0xa50c|Native extension for WebGL target not found
+2026-03-23T14:05:47.236Z|0xa50c|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+2026-03-23T14:05:47.281Z|0xa50c|- Finished resetting the current domain, in  0.897 seconds
+2026-03-23T14:05:47.281Z|0xa50c|Domain Reload Profiling: 1537ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (189ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (203ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (897ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (846ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (420ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+2026-03-23T14:05:47.478Z|0xa50c|========================================================================
+2026-03-23T14:05:47.478Z|0xa50c|Worker process is ready to serve import requests
+2026-03-23T14:05:47.481Z|0xa50c|Import Worker Mode flag is 0x00
+2026-03-23T14:05:47.686Z|0xa50c|Begin MonoManager ReloadAssembly
+2026-03-23T14:05:47.689Z|0xa50c|[Licensing::Client] Successfully resolved entitlement details
+2026-03-23T14:05:48.534Z|0xa50c|- Loaded All Assemblies, in  0.848 seconds
+2026-03-23T14:05:48.796Z|0xa50c|Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+2026-03-23T14:05:48.998Z|0xa50c|Native extension for Android target not found
+2026-03-23T14:05:49.006Z|0xa50c|Native extension for WindowsStandalone target not found
+2026-03-23T14:05:49.006Z|0xa50c|Native extension for WebGL target not found
+2026-03-23T14:05:49.623Z|0xa50c|Package Manager log level set to [2]
+2026-03-23T14:05:49.623Z|0xa50c|[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+2026-03-23T14:05:49.623Z|0xa50c|[Package Manager] Unable to send message (not connected to server process).
+2026-03-23T14:05:49.623Z|0xa50c|[Package Manager] Cannot connect to Unity Package Manager local server
+2026-03-23T14:05:49.695Z|0xa50c|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+2026-03-23T14:05:49.753Z|0xa50c|- Finished resetting the current domain, in  0.957 seconds
+2026-03-23T14:05:49.754Z|0xa50c|Domain Reload Profiling: 1802ms
+	BeginReloadAssembly (225ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (511ms)
+		LoadAssemblies (391ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (148ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (957ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (723ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+2026-03-23T14:05:49.900Z|0xa50c|Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+2026-03-23T14:05:50.260Z|0xa50c|Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+2026-03-23T14:05:50.260Z|0xa50c|Preloading 0 native plugins for Editor in 0.00 ms.
+2026-03-23T14:05:50.262Z|0x10c4c|Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+2026-03-23T14:05:50.279Z|0xa50c|Unloading 4193 unused Assets / (3.2 MB). Loaded Objects now: 4995.
+Memory consumption went from 126.1 MB to 122.8 MB.
+2026-03-23T14:05:50.279Z|0xa50c|Total: 16.558100 ms (FindLiveObjects: 1.051900 ms CreateObjectMapping: 0.925700 ms MarkObjects: 11.280700 ms  DeleteObjects: 3.297200 ms)
+
