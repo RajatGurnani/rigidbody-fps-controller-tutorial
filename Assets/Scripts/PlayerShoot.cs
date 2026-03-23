@@ -3,10 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerShoot : MonoBehaviour {
+public class PlayerShoot : MonoBehaviour
+{
 
     public static Action shootInput;
     public static Action reloadInput;
+
+    private void Awake()
+    {
+        shootInput = null;
+        reloadInput = null;
+    }
 
     [SerializeField] private KeyCode reloadKey = KeyCode.R;
 
