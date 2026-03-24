@@ -17,6 +17,9 @@ public class WeaponSwitching : MonoBehaviour {
     private int selectedWeapon;
     private float timeSinceLastSwitch;
 
+    public int SelectedWeapon => selectedWeapon;
+    public Transform ActiveWeapon => weapons != null && selectedWeapon >= 0 && selectedWeapon < weapons.Length ? weapons[selectedWeapon] : null;
+
     private void Start() {
         SetWeapons();
         Select(selectedWeapon);

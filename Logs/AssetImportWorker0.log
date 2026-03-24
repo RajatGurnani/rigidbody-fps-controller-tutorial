@@ -1,598 +1,320 @@
-[Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) CoreSingleLanguage' Language: 'en' Physical Memory: 14138 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fuzzy" at "2026-03-23T20:10:51.374158Z"
-System  architecture: x64
-Process architecture: x64
-Date: 2026-03-23T20:10:51Z
-
+2026-03-24T11:12:40.982Z|0x14ac8|[Licensing::Module] Trying to connect to existing licensing client channel...
+2026-03-24T11:12:40.983Z|0x16bbc|Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+2026-03-24T11:12:40.983Z|0x14ac8|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat" at "2026-03-24T11:12:40.9831296Z"
+2026-03-24T11:12:40.983Z|0x16bbc|OS: 'Windows 11  (10.0.26100) CoreSingleLanguage' Language: 'en' Physical Memory: 23983 MB
+2026-03-24T11:12:40.983Z|0x16bbc|BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+2026-03-24T11:12:40.983Z|0x16bbc|System  architecture: x64
+2026-03-24T11:12:40.983Z|0x16bbc|Process architecture: x64
+2026-03-24T11:12:40.983Z|0x16bbc|Date: 2026-03-24T11:12:40Z
+2026-03-24T11:12:41.219Z|0x16bbc|
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
--adb2
--batchMode
--noUpm
--name
-AssetImportWorker0
--projectPath
-C:/Users/fuzzy/Documents/GitHub/rigidbody-fps-controller-tutorial
--logFile
-Logs/AssetImportWorker0.log
--srvPort
-49675
--licensingIpc
-LicenseClient-fuzzy
--job-worker-count
-7
--background-job-worker-count
-8
--gc-helper-count
-1
--name
-AssetImport
-Successfully changed project path to: C:/Users/fuzzy/Documents/GitHub/rigidbody-fps-controller-tutorial
-C:/Users/fuzzy/Documents/GitHub/rigidbody-fps-controller-tutorial
-[UnityMemory] Configuration Parameters - Can be set up in boot.config
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
-    "memorysetup-temp-allocator-size-gfx=262144"
-    "memorysetup-allocator-temp-initial-block-size-main=262144"
-    "memorysetup-allocator-temp-initial-block-size-worker=262144"
-    "memorysetup-temp-allocator-size-background-worker=32768"
-    "memorysetup-temp-allocator-size-job-worker=262144"
-    "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-bucket-allocator-granularity=16"
-    "memorysetup-bucket-allocator-bucket-count=8"
-    "memorysetup-bucket-allocator-block-size=33554432"
-    "memorysetup-bucket-allocator-block-count=8"
-    "memorysetup-main-allocator-block-size=16777216"
-    "memorysetup-thread-allocator-block-size=16777216"
-    "memorysetup-gfx-main-allocator-block-size=16777216"
-    "memorysetup-gfx-thread-allocator-block-size=16777216"
-    "memorysetup-cache-allocator-block-size=4194304"
-    "memorysetup-typetree-allocator-block-size=2097152"
-    "memorysetup-profiler-bucket-allocator-granularity=16"
-    "memorysetup-profiler-bucket-allocator-bucket-count=8"
-    "memorysetup-profiler-bucket-allocator-block-size=33554432"
-    "memorysetup-profiler-bucket-allocator-block-count=8"
-    "memorysetup-profiler-allocator-block-size=16777216"
-    "memorysetup-profiler-editor-allocator-block-size=1048576"
-    "memorysetup-temp-allocator-size-main=16777216"
-    "memorysetup-job-temp-allocator-block-size=2097152"
-    "memorysetup-job-temp-allocator-block-size-background=1048576"
-    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [25240]  Target information:
+2026-03-24T11:12:41.219Z|0x16bbc|C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+2026-03-24T11:12:41.219Z|0x16bbc|-adb2
+2026-03-24T11:12:41.219Z|0x16bbc|-batchMode
+2026-03-24T11:12:41.219Z|0x16bbc|-noUpm
+2026-03-24T11:12:41.219Z|0x16bbc|-name
+2026-03-24T11:12:41.219Z|0x16bbc|AssetImportWorker0
+2026-03-24T11:12:41.219Z|0x16bbc|-projectPath
+2026-03-24T11:12:41.219Z|0x16bbc|D:/Work/rigidbody-fps-controller-tutorial
+2026-03-24T11:12:41.219Z|0x16bbc|-logFile
+2026-03-24T11:12:41.219Z|0x16bbc|Logs/AssetImportWorker0.log
+2026-03-24T11:12:41.219Z|0x16bbc|-srvPort
+2026-03-24T11:12:41.219Z|0x16bbc|56818
+2026-03-24T11:12:41.219Z|0x16bbc|-licensingIpc
+2026-03-24T11:12:41.219Z|0x16bbc|LicenseClient-Rajat
+2026-03-24T11:12:41.219Z|0x16bbc|-job-worker-count
+2026-03-24T11:12:41.219Z|0x16bbc|7
+2026-03-24T11:12:41.219Z|0x16bbc|-background-job-worker-count
+2026-03-24T11:12:41.219Z|0x16bbc|8
+2026-03-24T11:12:41.219Z|0x16bbc|-gc-helper-count
+2026-03-24T11:12:41.219Z|0x16bbc|1
+2026-03-24T11:12:41.219Z|0x16bbc|-name
+2026-03-24T11:12:41.219Z|0x16bbc|AssetImport
+2026-03-24T11:12:41.219Z|0x16bbc|Successfully changed project path to: D:/Work/rigidbody-fps-controller-tutorial
+2026-03-24T11:12:41.220Z|0x16bbc|D:/Work/rigidbody-fps-controller-tutorial
+2026-03-24T11:12:41.220Z|0x16bbc|[UnityMemory] Configuration Parameters - Can be set up in boot.config
+2026-03-24T11:12:41.220Z|0x16bbc|    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+2026-03-24T11:12:41.220Z|0x16bbc|    "memorysetup-temp-allocator-size-audio-worker=65536"
+2026-03-24T11:12:41.220Z|0x16bbc|    "memorysetup-temp-allocator-size-gfx=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-allocator-temp-initial-block-size-main=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-background-worker=32768"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-job-worker=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-preload-manager=33554432"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-bucket-allocator-granularity=16"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-bucket-allocator-bucket-count=8"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-bucket-allocator-block-size=33554432"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-bucket-allocator-block-count=8"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-main-allocator-block-size=16777216"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-thread-allocator-block-size=16777216"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-gfx-main-allocator-block-size=16777216"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-gfx-thread-allocator-block-size=16777216"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-cache-allocator-block-size=4194304"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-typetree-allocator-block-size=2097152"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-profiler-bucket-allocator-granularity=16"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-profiler-bucket-allocator-block-count=8"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-profiler-allocator-block-size=16777216"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-profiler-editor-allocator-block-size=1048576"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-main=16777216"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-job-temp-allocator-block-size=2097152"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-job-temp-allocator-block-size-background=1048576"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+2026-03-24T11:12:41.221Z|0x16bbc|    "memorysetup-temp-allocator-size-cloud-worker=32768"
+2026-03-24T11:12:41.230Z|0x16bbc|Player connection [93116]  Target information:
 
-Player connection [25240]  * "[IP] 192.168.10.103 [Port] 0 [Flags] 2 [Guid] 1818933530 [EditorId] 1818933530 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TDHGTCB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+2026-03-24T11:12:41.230Z|0x16bbc|Player connection [93116]  * "[IP] 192.168.3.130 [Port] 0 [Flags] 2 [Guid] 3013121887 [EditorId] 3013121887 [Version] 1048832 [Id] WindowsEditor(7,Rajat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [25240] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [25240] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
-Input System module state changed to: Initialized.
-[Physics::Module] Initialized fallback backend.
-[Physics::Module] Id: 0xdecafbad
-Library Redirect Path: Library/
-[Physics::Module] Selected backend.
-[Physics::Module] Name: PhysX
-[Physics::Module] Id: 0xf2b8ea05
-[Physics::Module] SDK Version: 4.1.2
-[Physics::Module] Integration Version: 1.0.0
-[Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.3.8f1 (1c7db571dde0)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/fuzzy/Documents/GitHub/rigidbody-fps-controller-tutorial/Assets
-GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d59)
-    Vendor:   NVIDIA
-    VRAM:     7899 MB
-    Driver:   32.0.15.9174
-Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/ClusterDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
-Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Particles/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/VR/SpatialMapping/Occlusion': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/VR/SpatialMapping/Wireframe': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree8': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/Simple Lit' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Handshaking with LicensingClient:
+2026-03-24T11:12:41.233Z|0x16bbc|Player connection [93116] Host joined multi-casting on [225.0.0.222:54997]...
+2026-03-24T11:12:41.234Z|0x16bbc|Player connection [93116] Host joined alternative multi-casting on [225.0.0.222:34997]...
+2026-03-24T11:12:41.234Z|0x16bbc|JobSystem: Creating JobQueue using job-worker-count value 7
+2026-03-24T11:12:41.239Z|0x16bbc|Input System module state changed to: Initialized.
+2026-03-24T11:12:41.241Z|0x16bbc|[Physics::Module] Initialized fallback backend.
+2026-03-24T11:12:41.241Z|0x16bbc|[Physics::Module] Id: 0xdecafbad
+2026-03-24T11:12:41.289Z|0x16bbc|Library Redirect Path: Library/
+2026-03-24T11:12:41.332Z|0x16bbc|[Physics::Module] Selected backend.
+2026-03-24T11:12:41.332Z|0x16bbc|[Physics::Module] Name: PhysX
+2026-03-24T11:12:41.332Z|0x16bbc|[Physics::Module] Id: 0xf2b8ea05
+2026-03-24T11:12:41.332Z|0x16bbc|[Physics::Module] SDK Version: 4.1.2
+2026-03-24T11:12:41.332Z|0x16bbc|[Physics::Module] Integration Version: 1.0.0
+2026-03-24T11:12:41.332Z|0x16bbc|[Physics::Module] Threading Mode: Multi-Threaded
+2026-03-24T11:12:41.349Z|0x16bbc|Refreshing native plugins compatible for Editor in 8.39 ms, found 3 plugins.
+2026-03-24T11:12:41.349Z|0x16bbc|Preloading 0 native plugins for Editor in 0.00 ms.
+2026-03-24T11:12:41.350Z|0x16bbc|Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+2026-03-24T11:12:41.350Z|0x16bbc|[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+2026-03-24T11:12:41.350Z|0x16bbc|[Subsystems] Discovering subsystems at path D:/Work/rigidbody-fps-controller-tutorial/Assets
+2026-03-24T11:12:41.351Z|0x16bbc|GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+2026-03-24T11:12:41.583Z|0x16bbc|Direct3D:
+2026-03-24T11:12:41.583Z|0x16bbc|    Version:  Direct3D 11.0 [level 11.1]
+2026-03-24T11:12:41.583Z|0x16bbc|    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+2026-03-24T11:12:41.583Z|0x16bbc|    Vendor:   NVIDIA
+2026-03-24T11:12:41.583Z|0x16bbc|    VRAM:     3937 MB
+2026-03-24T11:12:41.583Z|0x16bbc|    Driver:   32.0.15.7700
+2026-03-24T11:12:41.733Z|0x16bbc|Initialize mono
+2026-03-24T11:12:41.733Z|0x16bbc|Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+2026-03-24T11:12:41.733Z|0x16bbc|Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+2026-03-24T11:12:41.733Z|0x16bbc|Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+2026-03-24T11:12:41.733Z|0x16bbc|Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+2026-03-24T11:12:41.801Z|0x16bbc|Begin MonoManager ReloadAssembly
+2026-03-24T11:12:42.116Z|0x16bbc|Registering precompiled unity dll's ...
+2026-03-24T11:12:42.116Z|0x16bbc|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+2026-03-24T11:12:42.117Z|0x16bbc|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+2026-03-24T11:12:42.118Z|0x16bbc|[Licensing::Module] Licensing is not yet initialized.
+2026-03-24T11:12:42.138Z|0x14ac8|[Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              2042778a2e6c4041bf49f28b5b10cdd6
-  Correlation Id:          ae46efee8b96b4179e5b592f94c987aa
-  External correlation Id: 6678185573799942968
-  Machine Id:              H2KMd57Vac+sfJ2DFsJakRQ73A4=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-fuzzy" (connect: 0.00s, validation: 0.00s, handshake: 1.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fuzzy-notifications" at "2026-03-23T20:10:52.4010608Z"
-[Licensing::Module] Licensing Background thread has ended after 1.03s
-[Licensing::Module] Licensing is initialized (took 0.02s).
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JZ2C-U383-ZKPX-66UE-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: 2026-04-29T21:04:09Z
-[Licensing::Module] License group:
-  Id: 13469126986385-UnityPersXXXX
-  Product: Unity Personal
+  Session Id:              739282b8f06440a588f6c0fbf09803c7
+  Correlation Id:          5b8ead10a56030e887729f7244401493
+  External correlation Id: 7875688638644864653
+  Machine Id:              bZLnVjDChyW3KAMtcXptXTvD4Rw=
+2026-03-24T11:12:42.138Z|0x14ac8|[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Rajat" (connect: 0.00s, validation: 0.00s, handshake: 1.15s)
+2026-03-24T11:12:42.143Z|0x14ac8|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat-notifications" at "2026-03-24T11:12:42.1436798Z"
+2026-03-24T11:12:42.143Z|0x14ac8|[Licensing::Module] Licensing Background thread has ended after 1.16s
+2026-03-24T11:12:42.143Z|0x16bbc|[Licensing::Module] Licensing is initialized (took 0.03s).
+2026-03-24T11:12:42.147Z|0x16bbc|[Licensing::Client] Successfully resolved entitlement details
+2026-03-24T11:12:42.147Z|0x16bbc|[Licensing::Module] License group:
+  Id: 13469681201219-rendered-ideas-softgame-pvt-ltd-UnitXXXX
+  Product: Unity Pro
   Type: Assigned
-  Expiration: Unlimited
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JZ2C-U383-ZKPX-66UE-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: 2026-04-29T21:04:09Z
-[Licensing::Module] License group:
-  Id: 13469126986385-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.027456 seconds.
-- Loaded All Assemblies, in  0.502 seconds
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 354 ms
+  Expiration: 2026-04-07T00:00:00Z
+2026-03-24T11:12:42.147Z|0x16bbc|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+2026-03-24T11:12:42.148Z|0x16bbc|Registered in 0.032247 seconds.
+2026-03-24T11:12:42.447Z|0x16bbc|- Loaded All Assemblies, in  0.646 seconds
+2026-03-24T11:12:42.558Z|0x16bbc|Native extension for Android target not found
+2026-03-24T11:12:42.941Z|0x16bbc|Android Extension - Scanning For ADB Devices 334 ms
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+2026-03-24T11:12:42.943Z|0x16bbc|Native extension for WebGL target not found
+2026-03-24T11:12:43.454Z|0x16bbc|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.880 seconds
-Domain Reload Profiling: 1380ms
-	BeginReloadAssembly (165ms)
+2026-03-24T11:12:43.508Z|0x16bbc|- Finished resetting the current domain, in  1.059 seconds
+2026-03-24T11:12:43.509Z|0x16bbc|Domain Reload Profiling: 1706ms
+	BeginReloadAssembly (205ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (165ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (202ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (184ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (234ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (881ms)
+	FinalizeReload (1060ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (839ms)
+		SetupLoadedEditorAssemblies (1009ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (471ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (177ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			InitializePlatformSupportModulesInManaged (467ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+2026-03-24T11:12:43.665Z|0x16bbc|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 ========================================================================
-Worker process is ready to serve import requests
-Import Worker Mode flag is 0x00
+2026-03-24T11:12:43.764Z|0x16bbc|Worker process is ready to serve import requests
+2026-03-24T11:12:43.768Z|0x16bbc|Import Worker Mode flag is 0x00
+2026-03-24T11:12:43.838Z|0x16bbc|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-JZ2C-U383-ZKPX-66UE-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: 2026-04-29T21:04:09Z
-[Licensing::Module] License group:
-  Id: 13469126986385-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  2.984 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
-Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+2026-03-24T11:12:44.033Z|0x16bbc|[Licensing::Client] Successfully resolved entitlement details
+2026-03-24T11:12:45.155Z|0x16bbc|- Loaded All Assemblies, in  1.126 seconds
+2026-03-24T11:12:45.347Z|0x16bbc|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+2026-03-24T11:12:45.494Z|0x16bbc|'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+2026-03-24T11:12:45.538Z|0x16bbc|Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+2026-03-24T11:12:45.782Z|0x16bbc|Native extension for Android target not found
+2026-03-24T11:12:45.791Z|0x16bbc|Native extension for WindowsStandalone target not found
+2026-03-24T11:12:45.792Z|0x16bbc|Native extension for WebGL target not found
+2026-03-24T11:12:46.000Z|0x16bbc|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-tutorial
 Package Manager log level set to [2]
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+2026-03-24T11:12:46.423Z|0x16bbc|[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+2026-03-24T11:12:46.423Z|0x16bbc|[Package Manager] Unable to send message (not connected to server process).
+2026-03-24T11:12:46.423Z|0x16bbc|[Package Manager] Cannot connect to Unity Package Manager local server
+2026-03-24T11:12:46.440Z|0x16bbc|[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+2026-03-24T11:12:46.440Z|0x16bbc|[Package Manager] Unable to send message (not connected to server process).
+2026-03-24T11:12:46.440Z|0x16bbc|[Package Manager] Cannot connect to Unity Package Manager local server
+2026-03-24T11:12:46.794Z|0x16bbc|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.020 seconds
-Domain Reload Profiling: 4002ms
-	BeginReloadAssembly (214ms)
+2026-03-24T11:12:46.858Z|0x16bbc|- Finished resetting the current domain, in  1.318 seconds
+2026-03-24T11:12:46.858Z|0x16bbc|Domain Reload Profiling: 2440ms
+	BeginReloadAssembly (270ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (2669ms)
-		LoadAssemblies (2579ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (736ms)
+		LoadAssemblies (515ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (118ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1021ms)
+		AnalyzeDomain (358ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (238ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1319ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (733ms)
+		SetupLoadedEditorAssemblies (1043ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (194ms)
-			ProcessInitializeOnLoadAttributes (414ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (282ms)
+			ProcessInitializeOnLoadAttributes (622ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4193 unused Assets / (3.5 MB). Loaded Objects now: 4994.
-Memory consumption went from 124.5 MB to 121.0 MB.
-Total: 14.595400 ms (FindLiveObjects: 1.080800 ms CreateObjectMapping: 0.726900 ms MarkObjects: 9.679300 ms  DeleteObjects: 3.106300 ms)
+2026-03-24T11:12:47.075Z|0x16bbc|Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+2026-03-24T11:12:47.729Z|0x16bbc|Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+2026-03-24T11:12:47.729Z|0x16bbc|Preloading 0 native plugins for Editor in 0.00 ms.
+2026-03-24T11:12:47.732Z|0x120f4|Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+2026-03-24T11:12:47.762Z|0x16bbc|Unloading 5046 unused Assets / (5.3 MB). Loaded Objects now: 5853.
+Memory consumption went from 133.0 MB to 127.7 MB.
+2026-03-24T11:12:47.762Z|0x16bbc|Total: 29.854900 ms (FindLiveObjects: 1.840400 ms CreateObjectMapping: 2.225000 ms MarkObjects: 18.151000 ms  DeleteObjects: 7.636000 ms)
 
-========================================================================
+2026-03-24T11:12:59.685Z|0x16bbc|========================================================================
 Received Import Request.
-  Time since last request: 18730.493874 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png
-  artifactKey: Guid(758b1fc63752a1e44957111d5af9b00c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png using Guid(758b1fc63752a1e44957111d5af9b00c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a47d574a627e679c1bb17b1e70f2993') in 0.1847913 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 2413182.709107 seconds.
+  path: Assets/Scripts/Scriptable Objects
+  artifactKey: Guid(bbbeae73fed217546ad2ff2ed131cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:12:59.695Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects using Guid(bbbeae73fed217546ad2ff2ed131cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de88629429bfa3ce602de184cef77cfb') in 0.0057719 seconds
+2026-03-24T11:12:59.729Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
+2026-03-24T11:13:04.462Z|0x16bbc|========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(05da36e823f16a943b945714c4a1b93f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(05da36e823f16a943b945714c4a1b93f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b27e80adde479fab73955154850407c0') in 0.097869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 4.733540 seconds.
+  path: Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun
+  artifactKey: Guid(e261f20cbbcb4ac4e926fb6ad654dd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:13:04.474Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun using Guid(e261f20cbbcb4ac4e926fb6ad654dd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e885b0b6a9060d5750f95ac852908a42') in 0.000734 seconds
+2026-03-24T11:13:04.501Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
+2026-03-24T11:14:15.016Z|0x16bbc|========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Scripts/Interfaces/IDamageable.cs
-  artifactKey: Guid(0ce3b944eaeb86d47ab8fef70f974c9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Interfaces/IDamageable.cs using Guid(0ce3b944eaeb86d47ab8fef70f974c9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '940e5515ef308edbb8fa4eaaafd6f9d4') in 0.0179473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 70.513688 seconds.
+  path: Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/Bennelli_M4.prefab
+  artifactKey: Guid(47fa1bf34f9988740b7a62f7c6690197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:14:15.026Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/Bennelli_M4.prefab using Guid(47fa1bf34f9988740b7a62f7c6690197) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f75a9ca6477234c596b806a75f1c631c') in 0.5736779 seconds
+2026-03-24T11:14:15.627Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
-========================================================================
+2026-03-24T11:14:15.980Z|0x16bbc|========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scripts/PlayerShoot.cs
-  artifactKey: Guid(422123fee89e3634ebfe704e07dc2488) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/PlayerShoot.cs using Guid(422123fee89e3634ebfe704e07dc2488) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '797dd896be1a69554c4786e69492656e') in 0.0136952 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.351352 seconds.
+  path: Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/Bennelli_M4.prefab
+  artifactKey: Guid(47fa1bf34f9988740b7a62f7c6690197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:14:15.989Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/Bennelli_M4.prefab using Guid(47fa1bf34f9988740b7a62f7c6690197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95c549f5eec7ff7690d28d5eba244775') in 0.1194888 seconds
+2026-03-24T11:14:16.131Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
 
-========================================================================
+2026-03-24T11:14:20.668Z|0x16bbc|========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06_Sunless.png
-  artifactKey: Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06_Sunless.png using Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '020ed87cf1f4e488faff240a9ffa0a0e') in 0.0318931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 4.536988 seconds.
+  path: Assets/Scripts/Scriptable Objects/GunData.cs
+  artifactKey: Guid(285365424ea46d6449599e9ac956ecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:14:20.678Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects/GunData.cs using Guid(285365424ea46d6449599e9ac956ecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4713afef79f95c33605d182b2426abb6') in 0.0006798 seconds
+2026-03-24T11:14:20.703Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
+2026-03-24T11:14:23.385Z|0x16bbc|========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/MainMovement.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/MainMovement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20672554ac86cd3fd909d81ea7a2c979') in 0.0144821 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 2.681495 seconds.
+  path: Assets/Scripts/Scriptable Objects/Gun Objects/AR/AssaultRifle.asset
+  artifactKey: Guid(dd4f2a1ba1b706a45aeaf7cfb5f678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:14:23.397Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/AR/AssaultRifle.asset using Guid(dd4f2a1ba1b706a45aeaf7cfb5f678b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9ff8acc92a62f769d956ea6430ba3b2') in 0.001626 seconds
+2026-03-24T11:14:23.424Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
+2026-03-24T11:14:29.292Z|0x16bbc|========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_01_Sunless.png
-  artifactKey: Guid(d6a64d96999aec647a489f7d73c1a4c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_01_Sunless.png using Guid(d6a64d96999aec647a489f7d73c1a4c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddfea67cf929a046e86cd4b855f6f9ca') in 0.0322893 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 5.866999 seconds.
+  path: Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/AssaultRifle.overrideController
+  artifactKey: Guid(befd212533980c14dbe1ee9665d9f958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:14:29.301Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/AssaultRifle.overrideController using Guid(befd212533980c14dbe1ee9665d9f958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd21595207ef8469f646764b14fdd8c15') in 0.0054327 seconds
+2026-03-24T11:14:29.338Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
-========================================================================
+2026-03-24T11:14:29.421Z|0x16bbc|========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Scripts/PlayerLook.cs
-  artifactKey: Guid(41a990f132068334dadf254f76c7cf2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/PlayerLook.cs using Guid(41a990f132068334dadf254f76c7cf2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ec2bb14a5a8bd4d1daad2815db7282e') in 0.0138209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.082326 seconds.
+  path: Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/AssaultRifle.asset
+  artifactKey: Guid(a05cff05ad012cd468ae1629ace8c381) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:14:29.431Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/AssaultRifle.asset using Guid(a05cff05ad012cd468ae1629ace8c381) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2816f317ccf43064f0e3e5def2bbea29') in 0.0465149 seconds
+2026-03-24T11:14:29.504Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
+2026-03-24T11:14:29.504Z|0x16bbc|========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scripts/Setup/CameraFollow.cs
-  artifactKey: Guid(4ff06cb7e60d1574295050dc0d715fdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Setup/CameraFollow.cs using Guid(4ff06cb7e60d1574295050dc0d715fdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd060561509d206c7011fc83d955917b') in 0.012936 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/Reload.anim
+  artifactKey: Guid(1ec9265ad1069d4498466e543f168734) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:14:29.515Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/Reload.anim using Guid(1ec9265ad1069d4498466e543f168734) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5bb7786e7704ce463ebdb6739c86ab45') in 0.0256983 seconds
+2026-03-24T11:14:29.585Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/URP/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(00351fe3501ad694281a87e5bfa09ae8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/URP/UniversalRenderPipelineAsset.asset using Guid(00351fe3501ad694281a87e5bfa09ae8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '497009e89b4603a34f58b8bdaf80cb57') in 0.0712406 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_02_Moonless.mat
-  artifactKey: Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_02_Moonless.mat using Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ae4c5a00e3918160df7bdf09faf789b') in 0.0230548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Night.png
-  artifactKey: Guid(134608dbb5b4b3e458e3567b13281134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Night.png using Guid(134608dbb5b4b3e458e3567b13281134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0a1d025e728300afcde7113dbd8ee78') in 0.0364718 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat
-  artifactKey: Guid(6e00f8b39315691449f256740a5cb862) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Sunset.mat using Guid(6e00f8b39315691449f256740a5cb862) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c22c1720c83d5a2db1ebd3c25c72c695') in 0.0357691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Sunset.png
-  artifactKey: Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Sunset.png using Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '447eabfccc592dc956e522fd21b401b0') in 0.0293043 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Night_Moonless.png
-  artifactKey: Guid(6185794ad33085a4a9f8446781cb8f15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Night_Moonless.png using Guid(6185794ad33085a4a9f8446781cb8f15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d9d8de07ba269fa2dd63d49a7ba6286') in 0.0321802 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_04_Sunless.png
-  artifactKey: Guid(0e981c5218a661d479182696be5f084f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_04_Sunless.png using Guid(0e981c5218a661d479182696be5f084f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65098d84205f9b3b090ed467feca60dd') in 0.0201868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Snowy.mat
-  artifactKey: Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Snowy.mat using Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d02614de4d09ba9a188018d022bde4c') in 0.0301154 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png
-  artifactKey: Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png using Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '668294ea762cf2d8c76877166b3b0824') in 0.0279861 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
+2026-03-24T11:14:29.585Z|0x16bbc|========================================================================
 Received Import Request.
   Time since last request: 0.000046 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_05_Sunless.mat
-  artifactKey: Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_05_Sunless.mat using Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1283f35e87e71a71ae11793ecfd989df') in 0.0180089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/Idle.anim
+  artifactKey: Guid(225a9889fea7cb04fa5c3820f7573216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:14:29.596Z|0x16bbc|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/Idle.anim using Guid(225a9889fea7cb04fa5c3820f7573216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '405af42fdfcc826c9a3d0d2b1e37f0da') in 0.0177976 seconds
+2026-03-24T11:14:29.639Z|0x16bbc|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scripts/Scriptable Objects/Gun Objects/AR/AssaultRifle.asset
-  artifactKey: Guid(dd4f2a1ba1b706a45aeaf7cfb5f678b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Scriptable Objects/Gun Objects/AR/AssaultRifle.asset using Guid(dd4f2a1ba1b706a45aeaf7cfb5f678b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e6bd069ae1f0849b91be5e1728d499f') in 0.0148817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Night_Moonless.png
-  artifactKey: Guid(71af0a156cd7ed6469b31ce35294a78b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Night_Moonless.png using Guid(71af0a156cd7ed6469b31ce35294a78b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ccfd116126b87cd4b0deba4106ba175') in 0.029429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scripts/Scriptable Objects/Gun Objects/Pistol/Pistol.prefab
-  artifactKey: Guid(65e3efb9133cdaa4aaeddaf2a8065183) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Scriptable Objects/Gun Objects/Pistol/Pistol.prefab using Guid(65e3efb9133cdaa4aaeddaf2a8065183) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb381bc2e1510fb4ffba7797beace7d4') in 0.0309715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Day_Sunless.png
-  artifactKey: Guid(20f8339484595a64b81579493040f0a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS013/FS013_Day_Sunless.png using Guid(20f8339484595a64b81579493040f0a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39c989b8fdd226704cca33a0a5121d01') in 0.019246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer
-  artifactKey: Guid(adb6478a7f24de14eb356d6dc3d0c502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Scenes/TerrainGrass.terrainlayer using Guid(adb6478a7f24de14eb356d6dc3d0c502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77cad8d7378456789dc5f525f311caa4') in 0.0444481 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Snowy.mat
-  artifactKey: Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Snowy.mat using Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d46f7f8b063f03b0434bb48d61396fe') in 0.017412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/DefaultVolumeProfile.asset
-  artifactKey: Guid(067f74309cf912a4a97206c4d9ed1e6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(067f74309cf912a4a97206c4d9ed1e6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b033a05fbb325b92d4f934a3d212f61') in 0.0116143 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/Demo.unity
-  artifactKey: Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Scenes/Demo.unity using Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b27ac444ed5c8421020c0351374ccf8c') in 0.026639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_01_Moonless.png
-  artifactKey: Guid(ac8a32e5107b67a47939926c52798a2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Night_01_Moonless.png using Guid(ac8a32e5107b67a47939926c52798a2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1275b56e772fc0f09ec425162d68ff09') in 0.0175365 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_04.mat
-  artifactKey: Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_04.mat using Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7bb221b7ddbce72bbdec734c939b109') in 0.0144185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06.mat
-  artifactKey: Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_06.mat using Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '468ef406542f9acaeaed5faab7ce9317') in 0.0155037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Rainy.mat
-  artifactKey: Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Rainy.mat using Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54ec1cbbb39d5aeb28748d1d6f9dbd2b') in 0.0170651 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunset.png
-  artifactKey: Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Sunset.png using Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7c148c78f8e248489486e17a3937472') in 0.0188514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Materials/Target.mat
-  artifactKey: Guid(da038ab233923bb418623e43ca5a8a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Materials/Target.mat using Guid(da038ab233923bb418623e43ca5a8a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '592ecd2a9f9058b6022c4770dadf1fdc') in 0.0220019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Rainy.mat
-  artifactKey: Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS002/FS002_Rainy.mat using Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e074daa9dbf8c980c752df1d60df2618') in 0.0183756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Day.png
-  artifactKey: Guid(97c83ef8555216848ba4f98a7496a917) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Day.png using Guid(97c83ef8555216848ba4f98a7496a917) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fff323c2589f878de8f01779c997f877') in 0.0196165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png
-  artifactKey: Guid(5e1acf362611957488060eee4178b3f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png using Guid(5e1acf362611957488060eee4178b3f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06d45631f53841068f5aadd368b61e02') in 0.0161717 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Night.png
-  artifactKey: Guid(323f1ea1bce78fe4c90b2286fa1997e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS003/FS003_Night.png using Guid(323f1ea1bce78fe4c90b2286fa1997e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6dfbd3e37702019f835471d9275eb11') in 0.0172058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Snowy.mat
-  artifactKey: Guid(24d76106ebc1bd947a3fed862f899b82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/FS017/FS017_Snowy.mat using Guid(24d76106ebc1bd947a3fed862f899b82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73563b3d487dfa4ca62380bbec1b414f') in 0.0132068 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_01_Sunless.mat
-  artifactKey: Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fantasy Skybox FREE/Materials/Classic/FS000_Day_01_Sunless.mat using Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ed02af091207557f186bdffe6ea64b7') in 0.0162961 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+2026-03-24T11:15:29.619Z|0xd4bc|Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+2026-03-24T11:15:29.788Z|0x16bbc|AssetImportWorker is now disconnected from the server
+2026-03-24T11:15:29.788Z|0x16bbc|Process exiting
+2026-03-24T11:15:29.788Z|0x16bbc|Exiting without the bug reporter. Application will terminate with return code 0

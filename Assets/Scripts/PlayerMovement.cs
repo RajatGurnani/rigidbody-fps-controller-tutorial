@@ -129,6 +129,12 @@ public class PlayerMovement : MonoBehaviour
         MovePlayer();
     }
 
+    public void ApplyKickback(Vector3 impulse)
+    {
+        if (rb == null) return;
+        rb.AddForce(impulse, ForceMode.Impulse);
+    }
+
     void MovePlayer()
     {
         if (isGrounded && !OnSlope())
@@ -143,5 +149,16 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier * airMultiplier, ForceMode.Acceleration);
         }
+    }
+
+    private void OnGUI()
+    {
+        GUI.Label(new Rect(10, 10, 300, 20), $"Speed: {moveSpeed:F2} (Walk: {walkSpeed:F2}, Sprint: {sprintSpeed:F2})");
+        GUI.Label(new Rect(10, 30, 300, 20), $"Acceleration: {acceleration:F2}");
+        GUI.Label(new Rect(10, 50, 300, 20), $"Grounded: {isGrounded}");
+        GUI.Label(new Rect(10, 70, 300, 20), $"Velocity: {rb.linearVelocity.magnitude:F2} ({rb.linearVelocity.x:F2}, {rb.linearVelocity.y:F2}, {rb.linearVelocity.z:F2})");
+        GUI.Label(new Rect(10, 90, 300, 20), $"Move Direction: ({moveDirection.x:F2}, {moveDirection.y:F2}, {moveDirection.z:F2})");
+        GUI.Label(new Rect(10, 110, 300, 20), $"Input: H:{horizontalMovement:F2}, V:{verticalMovement:F2}");
+        GUI.Label(new Rect(10, 130, 300, 20), $"On Slope: {OnSlope()}");
     }
 }

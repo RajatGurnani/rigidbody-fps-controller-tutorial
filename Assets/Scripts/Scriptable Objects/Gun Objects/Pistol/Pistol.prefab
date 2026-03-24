@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &34624686894870247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7707052544535937822}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7707052544535937822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34624686894870247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0, y: 0.008086923, z: -0.13872743}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4706629507875055151}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &4629727217151540899
 GameObject:
   m_ObjectHideFlags: 0
@@ -10,6 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4629727217151540898}
   - component: {fileID: 4629727217151540909}
+  - component: {fileID: 4999914092186749981}
   m_Layer: 0
   m_Name: Pistol
   m_TagString: Untagged
@@ -47,6 +79,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunData: {fileID: 11400000, guid: d5bd974bd415f064f8f7e71afad4d555, type: 2}
   cam: {fileID: 0}
+  firePoint: {fileID: 7707052544535937822}
+  _animator: {fileID: 0}
+  bulletKey: Bullet_Pistol
+--- !u!95 &4999914092186749981
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629727217151540899}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 4a2ca1d84bfa3154f97a12ede106b674, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4706629507875092993
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +562,7 @@ Transform:
   - {fileID: 4706629507875055147}
   - {fileID: 4706629507875055137}
   - {fileID: 4706629507875055139}
+  - {fileID: 7707052544535937822}
   - {fileID: 4706629507875055141}
   m_Father: {fileID: 4706629507875055149}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

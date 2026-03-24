@@ -1,0 +1,569 @@
+2026-03-24T10:31:29.211Z|0x15bf8|[Licensing::Module] Trying to connect to existing licensing client channel...
+2026-03-24T10:31:29.211Z|0x15bf8|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat" at "2026-03-24T10:31:29.2118311Z"
+2026-03-24T10:31:29.211Z|0x1121c|Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+2026-03-24T10:31:29.212Z|0x1121c|OS: 'Windows 11  (10.0.26100) CoreSingleLanguage' Language: 'en' Physical Memory: 23983 MB
+2026-03-24T10:31:29.212Z|0x1121c|BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+2026-03-24T10:31:29.212Z|0x1121c|System  architecture: x64
+2026-03-24T10:31:29.212Z|0x1121c|Process architecture: x64
+2026-03-24T10:31:29.212Z|0x1121c|Date: 2026-03-24T10:31:29Z
+2026-03-24T10:31:29.455Z|0x1121c|
+COMMAND LINE ARGUMENTS:
+2026-03-24T10:31:29.455Z|0x1121c|C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+2026-03-24T10:31:29.455Z|0x1121c|-adb2
+2026-03-24T10:31:29.455Z|0x1121c|-batchMode
+2026-03-24T10:31:29.455Z|0x1121c|-noUpm
+2026-03-24T10:31:29.455Z|0x1121c|-name
+2026-03-24T10:31:29.455Z|0x1121c|AssetImportWorker11
+2026-03-24T10:31:29.455Z|0x1121c|-projectPath
+2026-03-24T10:31:29.455Z|0x1121c|D:/Work/rigidbody-fps-controller-tutorial
+2026-03-24T10:31:29.455Z|0x1121c|-logFile
+2026-03-24T10:31:29.455Z|0x1121c|Logs/AssetImportWorker11.log
+2026-03-24T10:31:29.455Z|0x1121c|-srvPort
+2026-03-24T10:31:29.455Z|0x1121c|57329
+2026-03-24T10:31:29.455Z|0x1121c|-licensingIpc
+2026-03-24T10:31:29.455Z|0x1121c|LicenseClient-Rajat
+2026-03-24T10:31:29.455Z|0x1121c|-job-worker-count
+2026-03-24T10:31:29.455Z|0x1121c|7
+2026-03-24T10:31:29.455Z|0x1121c|-background-job-worker-count
+2026-03-24T10:31:29.455Z|0x1121c|8
+2026-03-24T10:31:29.455Z|0x1121c|-gc-helper-count
+2026-03-24T10:31:29.455Z|0x1121c|1
+2026-03-24T10:31:29.455Z|0x1121c|-name
+2026-03-24T10:31:29.455Z|0x1121c|AssetImport
+2026-03-24T10:31:29.455Z|0x1121c|Successfully changed project path to: D:/Work/rigidbody-fps-controller-tutorial
+2026-03-24T10:31:29.457Z|0x1121c|D:/Work/rigidbody-fps-controller-tutorial
+2026-03-24T10:31:29.457Z|0x1121c|[UnityMemory] Configuration Parameters - Can be set up in boot.config
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-audio-worker=65536"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-gfx=262144"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-allocator-temp-initial-block-size-main=262144"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-background-worker=32768"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-job-worker=262144"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-preload-manager=33554432"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-bucket-allocator-granularity=16"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-bucket-allocator-bucket-count=8"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-bucket-allocator-block-size=33554432"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-bucket-allocator-block-count=8"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-main-allocator-block-size=16777216"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-thread-allocator-block-size=16777216"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-gfx-main-allocator-block-size=16777216"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-gfx-thread-allocator-block-size=16777216"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-cache-allocator-block-size=4194304"
+2026-03-24T10:31:29.457Z|0x1121c|    "memorysetup-typetree-allocator-block-size=2097152"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-profiler-bucket-allocator-granularity=16"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-profiler-bucket-allocator-block-count=8"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-profiler-allocator-block-size=16777216"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-profiler-editor-allocator-block-size=1048576"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-temp-allocator-size-main=16777216"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-job-temp-allocator-block-size=2097152"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-job-temp-allocator-block-size-background=1048576"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+2026-03-24T10:31:29.458Z|0x1121c|    "memorysetup-temp-allocator-size-cloud-worker=32768"
+2026-03-24T10:31:29.469Z|0x1121c|Player connection [70172]  Target information:
+
+2026-03-24T10:31:29.469Z|0x1121c|Player connection [70172]  * "[IP] 192.168.3.130 [Port] 0 [Flags] 2 [Guid] 3209680548 [EditorId] 3209680548 [Version] 1048832 [Id] WindowsEditor(7,Rajat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+2026-03-24T10:31:29.472Z|0x1121c|Player connection [70172] Host joined multi-casting on [225.0.0.222:54997]...
+2026-03-24T10:31:29.473Z|0x1121c|Player connection [70172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+2026-03-24T10:31:29.473Z|0x1121c|JobSystem: Creating JobQueue using job-worker-count value 7
+2026-03-24T10:31:29.481Z|0x1121c|Input System module state changed to: Initialized.
+2026-03-24T10:31:29.483Z|0x1121c|[Physics::Module] Initialized fallback backend.
+2026-03-24T10:31:29.483Z|0x1121c|[Physics::Module] Id: 0xdecafbad
+2026-03-24T10:31:29.541Z|0x1121c|Library Redirect Path: Library/
+2026-03-24T10:31:29.584Z|0x1121c|[Physics::Module] Selected backend.
+2026-03-24T10:31:29.584Z|0x1121c|[Physics::Module] Name: PhysX
+2026-03-24T10:31:29.584Z|0x1121c|[Physics::Module] Id: 0xf2b8ea05
+2026-03-24T10:31:29.584Z|0x1121c|[Physics::Module] SDK Version: 4.1.2
+2026-03-24T10:31:29.584Z|0x1121c|[Physics::Module] Integration Version: 1.0.0
+2026-03-24T10:31:29.584Z|0x1121c|[Physics::Module] Threading Mode: Multi-Threaded
+2026-03-24T10:31:29.606Z|0x1121c|Refreshing native plugins compatible for Editor in 12.67 ms, found 3 plugins.
+2026-03-24T10:31:29.606Z|0x1121c|Preloading 0 native plugins for Editor in 0.00 ms.
+2026-03-24T10:31:29.607Z|0x1121c|Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+2026-03-24T10:31:29.607Z|0x1121c|[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+2026-03-24T10:31:29.607Z|0x1121c|[Subsystems] Discovering subsystems at path D:/Work/rigidbody-fps-controller-tutorial/Assets
+2026-03-24T10:31:29.607Z|0x1121c|GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+2026-03-24T10:31:29.873Z|0x1121c|Direct3D:
+2026-03-24T10:31:29.873Z|0x1121c|    Version:  Direct3D 11.0 [level 11.1]
+2026-03-24T10:31:29.873Z|0x1121c|    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+2026-03-24T10:31:29.873Z|0x1121c|    Vendor:   NVIDIA
+2026-03-24T10:31:29.873Z|0x1121c|    VRAM:     3937 MB
+2026-03-24T10:31:29.873Z|0x1121c|    Driver:   32.0.15.7700
+2026-03-24T10:31:30.030Z|0x1121c|Initialize mono
+2026-03-24T10:31:30.030Z|0x1121c|Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+2026-03-24T10:31:30.030Z|0x1121c|Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+2026-03-24T10:31:30.030Z|0x1121c|Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+2026-03-24T10:31:30.030Z|0x1121c|Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+2026-03-24T10:31:30.101Z|0x1121c|Begin MonoManager ReloadAssembly
+2026-03-24T10:31:30.377Z|0x15bf8|[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              becac7a7ec7e447780b883fdb8206782
+  Correlation Id:          5b8ead10a56030e887729f7244401493
+  External correlation Id: 7361410563814614320
+  Machine Id:              bZLnVjDChyW3KAMtcXptXTvD4Rw=
+2026-03-24T10:31:30.377Z|0x15bf8|[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Rajat" (connect: 0.00s, validation: 0.00s, handshake: 1.16s)
+2026-03-24T10:31:30.378Z|0x15bf8|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat-notifications" at "2026-03-24T10:31:30.3780456Z"
+2026-03-24T10:31:30.378Z|0x15bf8|[Licensing::Module] Licensing Background thread has ended after 1.17s
+2026-03-24T10:31:30.395Z|0x1121c|Registering precompiled unity dll's ...
+2026-03-24T10:31:30.396Z|0x1121c|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+2026-03-24T10:31:30.396Z|0x1121c|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+2026-03-24T10:31:30.400Z|0x1121c|[Licensing::Client] Successfully resolved entitlement details
+2026-03-24T10:31:30.400Z|0x1121c|[Licensing::Module] License group:
+  Id: 13469681201219-rendered-ideas-softgame-pvt-ltd-UnitXXXX
+  Product: Unity Pro
+  Type: Assigned
+  Expiration: 2026-04-07T00:00:00Z
+2026-03-24T10:31:30.400Z|0x1121c|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+2026-03-24T10:31:30.401Z|0x1121c|Registered in 0.005791 seconds.
+2026-03-24T10:31:30.694Z|0x1121c|- Loaded All Assemblies, in  0.594 seconds
+2026-03-24T10:31:30.810Z|0x1121c|Native extension for Android target not found
+2026-03-24T10:31:31.178Z|0x1121c|Android Extension - Scanning For ADB Devices 324 ms
+Native extension for WindowsStandalone target not found
+2026-03-24T10:31:31.180Z|0x1121c|Native extension for WebGL target not found
+2026-03-24T10:31:31.631Z|0x1121c|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+2026-03-24T10:31:31.680Z|0x1121c|- Finished resetting the current domain, in  0.986 seconds
+2026-03-24T10:31:31.680Z|0x1121c|Domain Reload Profiling: 1577ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (230ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (986ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (925ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (447ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+2026-03-24T10:31:31.831Z|0x1121c|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+2026-03-24T10:31:31.931Z|0x1121c|Worker process is ready to serve import requests
+2026-03-24T10:31:31.934Z|0x1121c|Import Worker Mode flag is 0x00
+2026-03-24T10:31:31.998Z|0x1121c|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+2026-03-24T10:31:32.207Z|0x1121c|[Licensing::Client] Successfully resolved entitlement details
+2026-03-24T10:31:33.311Z|0x1121c|- Loaded All Assemblies, in  1.107 seconds
+2026-03-24T10:31:33.475Z|0x1121c|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+2026-03-24T10:31:33.612Z|0x1121c|'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+2026-03-24T10:31:33.647Z|0x1121c|Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+2026-03-24T10:31:33.873Z|0x1121c|Native extension for Android target not found
+2026-03-24T10:31:33.882Z|0x1121c|Native extension for WindowsStandalone target not found
+2026-03-24T10:31:33.882Z|0x1121c|Native extension for WebGL target not found
+2026-03-24T10:31:34.071Z|0x1121c|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\Work\rigidbody-fps-controller-tutorial\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <1eb9db207454431c84a47bcd81e79c37>:0 
+  at UnityEditor.StateCache`1[T].LoadJsonState (UnityEngine.Hash128 key, System.String filePath, T defaultValue) [0x0000a] in <6dd00658fb454e6fb4c06a416ab8eaa1>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:LoadJsonState (UnityEngine.Hash128,string,UnityEditor.Tools/LayerSettings)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@ae5f251e1ed4/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@ae5f251e1ed4/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+2026-03-24T10:31:34.383Z|0x1121c|[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-tutorial
+Package Manager log level set to [2]
+2026-03-24T10:31:34.457Z|0x1121c|[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+2026-03-24T10:31:34.457Z|0x1121c|[Package Manager] Unable to send message (not connected to server process).
+2026-03-24T10:31:34.457Z|0x1121c|[Package Manager] Cannot connect to Unity Package Manager local server
+2026-03-24T10:31:34.472Z|0x1121c|[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+2026-03-24T10:31:34.473Z|0x1121c|[Package Manager] Unable to send message (not connected to server process).
+2026-03-24T10:31:34.473Z|0x1121c|[Package Manager] Cannot connect to Unity Package Manager local server
+2026-03-24T10:31:34.793Z|0x1121c|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+2026-03-24T10:31:34.853Z|0x1121c|- Finished resetting the current domain, in  1.205 seconds
+2026-03-24T10:31:34.854Z|0x1121c|Domain Reload Profiling: 2308ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (725ms)
+		LoadAssemblies (530ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (228ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1205ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (947ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (269ms)
+			ProcessInitializeOnLoadAttributes (557ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+2026-03-24T10:31:35.035Z|0x1121c|Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+2026-03-24T10:31:35.525Z|0x1121c|Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+2026-03-24T10:31:35.526Z|0x1121c|Preloading 0 native plugins for Editor in 0.00 ms.
+2026-03-24T10:31:35.529Z|0xbbc4|Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+2026-03-24T10:31:35.554Z|0x1121c|Unloading 5046 unused Assets / (4.5 MB). Loaded Objects now: 5853.
+Memory consumption went from 132.7 MB to 128.2 MB.
+2026-03-24T10:31:35.554Z|0x1121c|Total: 24.824500 ms (FindLiveObjects: 1.735500 ms CreateObjectMapping: 1.999700 ms MarkObjects: 14.412500 ms  DeleteObjects: 6.672700 ms)
+
+2026-03-24T10:34:12.766Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 2410855.812942 seconds.
+  path: Assets/Warzombie F Pedroso@Breathing Idle.fbx
+  artifactKey: Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:34:12.778Z|0x1121c|Start importing Assets/Warzombie F Pedroso@Breathing Idle.fbx using Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82ab91983a863328b815ec31fc7996a2') in 0.2027108 seconds
+2026-03-24T10:34:13.010Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 154
+
+2026-03-24T10:34:13.095Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.085005 seconds.
+  path: Assets/Warzombie F Pedroso@Breathing Idle.fbx
+  artifactKey: Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T10:34:13.104Z|0x1121c|Start importing Assets/Warzombie F Pedroso@Breathing Idle.fbx using Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '190183803a1859f2b1bdd3f4308ef1f7') in 0.5868981 seconds
+2026-03-24T10:34:13.715Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+2026-03-24T10:34:24.009Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 10.292546 seconds.
+  path: Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx
+  artifactKey: Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:34:24.019Z|0x1121c|Start importing Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx using Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b69b49f4f02f281c804cd21a11ecb5b6') in 0.0283111 seconds
+2026-03-24T10:34:24.074Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 154
+
+2026-03-24T10:34:28.771Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 4.696461 seconds.
+  path: Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx
+  artifactKey: Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T10:34:28.781Z|0x1121c|Start importing Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx using Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14115c9a86891897e4e573994ea0283e') in 0.0346483 seconds
+2026-03-24T10:34:28.843Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 154
+
+2026-03-24T10:34:31.399Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 2.555635 seconds.
+  path: Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx
+  artifactKey: Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T10:34:31.409Z|0x1121c|Start importing Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx using Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28ddca6fcc438d8fb4704a24ea882432') in 0.0448162 seconds
+2026-03-24T10:34:31.478Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 154
+
+2026-03-24T10:34:32.361Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.883616 seconds.
+  path: Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx
+  artifactKey: Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:34:32.371Z|0x1121c|Start importing Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx using Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bd1c63e73ef1849d47e45975702dd36') in 0.0364453 seconds
+2026-03-24T10:34:32.436Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 153
+
+2026-03-24T10:34:32.436Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/chars/world_war_zombie_diffuse.png
+  artifactKey: Guid(8acd6266348fc0d4795721cb120a38a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:34:32.447Z|0x1121c|Start importing Assets/chars/world_war_zombie_diffuse.png using Guid(8acd6266348fc0d4795721cb120a38a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+2026-03-24T10:34:32.563Z|0x1121c| -> (artifact id: 'f71eca1a77ddf69a750be5112cb2c113') in 0.1164682 seconds
+2026-03-24T10:34:32.595Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:34:32.595Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/chars/world_war_zombie_normal.png
+  artifactKey: Guid(eeed514cfc70d0640824439c0d2b0042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:34:32.609Z|0x1121c|Start importing Assets/chars/world_war_zombie_normal.png using Guid(eeed514cfc70d0640824439c0d2b0042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29e71bd4efd1fabbfa4b8d463a4a6033') in 0.0309965 seconds
+2026-03-24T10:34:32.667Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:35:18.947Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 46.279109 seconds.
+  path: Assets/chars/world_war_zombie_specular.png
+  artifactKey: Guid(0a29ed4ae6f3fc44796519ebd7a032d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T10:35:18.956Z|0x1121c|Start importing Assets/chars/world_war_zombie_specular.png using Guid(0a29ed4ae6f3fc44796519ebd7a032d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9612845939c54e8f4be70d8f0dbec7e') in 0.0206469 seconds
+2026-03-24T10:35:19.003Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+2026-03-24T10:35:36.139Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 17.135664 seconds.
+  path: Assets/chars/world_war_zombie_normal.png
+  artifactKey: Guid(eeed514cfc70d0640824439c0d2b0042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:35:36.149Z|0x1121c|Start importing Assets/chars/world_war_zombie_normal.png using Guid(eeed514cfc70d0640824439c0d2b0042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64cd492f2fb7cca8fcf732ec088f7c00') in 0.0249538 seconds
+2026-03-24T10:35:36.199Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:37:41.129Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 124.928313 seconds.
+  path: Assets/chars/WorldWar_zombie_material.mat
+  artifactKey: Guid(8e3a8c7b289a34a4cb9aed041c2a6131) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:37:41.139Z|0x1121c|Start importing Assets/chars/WorldWar_zombie_material.mat using Guid(8e3a8c7b289a34a4cb9aed041c2a6131) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e57e93df12d8ed03b2b079c84473cdd') in 0.0322448 seconds
+2026-03-24T10:37:41.207Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+2026-03-24T10:39:42.222Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 121.013515 seconds.
+  path: Assets/Scenes/MainMovement.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:39:42.233Z|0x1121c|Start importing Assets/Scenes/MainMovement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99391241bb70174b6fab25032f9174bf') in 0.0189821 seconds
+2026-03-24T10:39:42.277Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:42:40.872Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 178.592116 seconds.
+  path: Assets/Scenes/MainMovement.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:42:40.882Z|0x1121c|Start importing Assets/Scenes/MainMovement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '564448736297ac242eb59d69e423a5cb') in 0.020541 seconds
+2026-03-24T10:42:40.929Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:44:56.446Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 135.515636 seconds.
+  path: Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx
+  artifactKey: Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T10:44:56.456Z|0x1121c|Start importing Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx using Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5cbcb2b2e6b47634f3e777f79ce741a') in 1.0540164 seconds
+2026-03-24T10:44:57.538Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 157
+
+2026-03-24T10:45:01.157Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 3.618321 seconds.
+  path: Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx
+  artifactKey: Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T10:45:01.166Z|0x1121c|Start importing Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx using Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4395649ad842493a4685a5bf8bdbcf4e') in 0.0384333 seconds
+2026-03-24T10:45:01.229Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 157
+
+2026-03-24T10:47:53.660Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 172.429049 seconds.
+  path: Assets/chars/Warzombie F Pedroso@Breathing Idle.controller
+  artifactKey: Guid(2db047003c05b81449b039d4a7f6b664) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:47:53.671Z|0x1121c|Start importing Assets/chars/Warzombie F Pedroso@Breathing Idle.controller using Guid(2db047003c05b81449b039d4a7f6b664) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '091cbeb24c2f079386a7e27dce0762fb') in 0.0151202 seconds
+2026-03-24T10:47:53.714Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+2026-03-24T10:47:54.276Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.562526 seconds.
+  path: Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx
+  artifactKey: Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:47:54.285Z|0x1121c|Start importing Assets/chars/Warzombie F Pedroso@Breathing Idle.fbx using Guid(d23db6d24d5e6164e97b0c70fc8ad72f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fd3ad7493aff2b1f19ab76800a69fa5') in 0.027973 seconds
+2026-03-24T10:47:54.338Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 153
+
+2026-03-24T10:47:54.802Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.463215 seconds.
+  path: Assets/Scenes/MainMovement.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:47:54.812Z|0x1121c|Start importing Assets/Scenes/MainMovement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f2a54056fa632647fafe1ecbf481d98') in 0.0189493 seconds
+2026-03-24T10:47:54.857Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:48:21.313Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 26.455178 seconds.
+  path: Assets/chars/Eyes.mat
+  artifactKey: Guid(d9c45e30bda08154cb3b6e697ff2d680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:48:21.323Z|0x1121c|Start importing Assets/chars/Eyes.mat using Guid(d9c45e30bda08154cb3b6e697ff2d680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c777e1d0e1be9611f9cbd42f85575a87') in 0.0153655 seconds
+2026-03-24T10:48:21.365Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:48:56.953Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 35.587417 seconds.
+  path: Assets/Scenes/MainMovement/Global Volume Profile.asset
+  artifactKey: Guid(a5fed9e06a046cc48826e4775a9394db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:48:56.963Z|0x1121c|Start importing Assets/Scenes/MainMovement/Global Volume Profile.asset using Guid(a5fed9e06a046cc48826e4775a9394db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd9b69ad04000e4c8759d50cb78d3e29') in 0.0195066 seconds
+2026-03-24T10:48:57.010Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:48:59.451Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 2.441489 seconds.
+  path: Assets/Scenes/MainMovement/Global Volume Profile.asset
+  artifactKey: Guid(a5fed9e06a046cc48826e4775a9394db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:48:59.461Z|0x1121c|Start importing Assets/Scenes/MainMovement/Global Volume Profile.asset using Guid(a5fed9e06a046cc48826e4775a9394db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4396753904250bcefe3a528b856aa372') in 0.0158227 seconds
+2026-03-24T10:48:59.503Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+2026-03-24T10:53:08.306Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 248.800447 seconds.
+  path: Assets/URPDefaultResources/Ultra.asset
+  artifactKey: Guid(e1de6d47bd500f04797ed5386b710494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T10:53:08.316Z|0x1121c|Start importing Assets/URPDefaultResources/Ultra.asset using Guid(e1de6d47bd500f04797ed5386b710494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d433a88da2ed4a024a9112dbd8c527c') in 0.0010526 seconds
+2026-03-24T10:53:08.342Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2026-03-24T10:56:25.664Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 197.320532 seconds.
+  path: Assets/URPDefaultResources/Ultra.asset
+  artifactKey: Guid(e1de6d47bd500f04797ed5386b710494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:56:25.677Z|0x1121c|Start importing Assets/URPDefaultResources/Ultra.asset using Guid(e1de6d47bd500f04797ed5386b710494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7933812c97a5c4955b3c103455fa267') in 0.1300502 seconds
+2026-03-24T10:56:25.838Z|0x1121c|Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+2026-03-24T10:56:25.838Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scenes/MainMovement.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:56:25.850Z|0x1121c|Start importing Assets/Scenes/MainMovement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8562adf5364f2fe6d37b6088dff56f4e') in 0.0221834 seconds
+2026-03-24T10:56:25.898Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:58:36.758Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 130.859072 seconds.
+  path: Assets/chars/Eyes.mat
+  artifactKey: Guid(d9c45e30bda08154cb3b6e697ff2d680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:58:36.768Z|0x1121c|Start importing Assets/chars/Eyes.mat using Guid(d9c45e30bda08154cb3b6e697ff2d680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '142fa28a005b5487a7a421f0646f4f79') in 0.0163785 seconds
+2026-03-24T10:58:36.817Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:58:36.817Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/MainMovement.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:58:36.830Z|0x1121c|Start importing Assets/Scenes/MainMovement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fa2c665aaaecc976dbbc039ef8325b9') in 0.0234562 seconds
+2026-03-24T10:58:36.883Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T10:59:03.817Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 26.934068 seconds.
+  path: Assets/chars/Eyes.mat
+  artifactKey: Guid(d9c45e30bda08154cb3b6e697ff2d680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T10:59:03.827Z|0x1121c|Start importing Assets/chars/Eyes.mat using Guid(d9c45e30bda08154cb3b6e697ff2d680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a073a703fb06679c0f1eb1838e82825') in 0.0163801 seconds
+2026-03-24T10:59:03.870Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T11:00:11.775Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 67.904084 seconds.
+  path: Assets/Scenes/MainMovement/Global Volume Profile.asset
+  artifactKey: Guid(a5fed9e06a046cc48826e4775a9394db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:00:11.785Z|0x1121c|Start importing Assets/Scenes/MainMovement/Global Volume Profile.asset using Guid(a5fed9e06a046cc48826e4775a9394db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3590ba3eafef7f001bbda1adaa78adc4') in 0.0169412 seconds
+2026-03-24T11:00:11.829Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+2026-03-24T11:00:44.840Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 33.010073 seconds.
+  path: Assets/URPDefaultResources/Ultra.asset
+  artifactKey: Guid(e1de6d47bd500f04797ed5386b710494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:00:44.849Z|0x1121c|Start importing Assets/URPDefaultResources/Ultra.asset using Guid(e1de6d47bd500f04797ed5386b710494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '025a4496f84b111c4e3db5ab8ad0ef9f') in 0.0009755 seconds
+2026-03-24T11:00:44.876Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2026-03-24T11:00:49.589Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 4.712724 seconds.
+  path: Assets/URPDefaultResources/Default_Forward_Renderer.asset
+  artifactKey: Guid(286bb62cf2c91ca46b06f4b20e589ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:00:49.598Z|0x1121c|Start importing Assets/URPDefaultResources/Default_Forward_Renderer.asset using Guid(286bb62cf2c91ca46b06f4b20e589ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5aed5253ff568536f654e2d327b927f2') in 0.0010341 seconds
+2026-03-24T11:00:49.626Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2026-03-24T11:01:12.982Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 23.356501 seconds.
+  path: Assets/URPDefaultResources/Ultra.asset
+  artifactKey: Guid(e1de6d47bd500f04797ed5386b710494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:01:12.995Z|0x1121c|Start importing Assets/URPDefaultResources/Ultra.asset using Guid(e1de6d47bd500f04797ed5386b710494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f68827d4cb8ebe545210c14e878ed08f') in 0.0324033 seconds
+2026-03-24T11:01:13.053Z|0x1121c|Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+2026-03-24T11:02:42.451Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 89.397230 seconds.
+  path: Assets/Scenes/MainMovement.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:02:42.462Z|0x1121c|Start importing Assets/Scenes/MainMovement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '573fdba5ab1a077dcfa112af2eb54428') in 0.0248452 seconds
+2026-03-24T11:02:42.514Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T11:04:10.060Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 87.545399 seconds.
+  path: Assets/URPDefaultResources/Very High.asset
+  artifactKey: Guid(1660506eb2aed964fb5fd940e6a571eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:04:10.070Z|0x1121c|Start importing Assets/URPDefaultResources/Very High.asset using Guid(1660506eb2aed964fb5fd940e6a571eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ada5e987c0e6481357ddced3d221be4f') in 0.0014531 seconds
+2026-03-24T11:04:10.098Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T11:04:10.417Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.318760 seconds.
+  path: Assets/URPDefaultResources/Ultra.asset
+  artifactKey: Guid(e1de6d47bd500f04797ed5386b710494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-24T11:04:10.426Z|0x1121c|Start importing Assets/URPDefaultResources/Ultra.asset using Guid(e1de6d47bd500f04797ed5386b710494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '781c1a7929842c46ff12a3cd48f683ef') in 0.0009557 seconds
+2026-03-24T11:04:10.448Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2026-03-24T11:07:46.686Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 216.236097 seconds.
+  path: Assets/chars/Eyes.mat
+  artifactKey: Guid(d9c45e30bda08154cb3b6e697ff2d680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:07:46.696Z|0x1121c|Start importing Assets/chars/Eyes.mat using Guid(d9c45e30bda08154cb3b6e697ff2d680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bcb62433e2e218a0adf29e5faa5d7e7') in 0.015019 seconds
+2026-03-24T11:07:46.736Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T11:07:47.374Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.638410 seconds.
+  path: Assets/Scenes/MainMovement/Global Volume Profile.asset
+  artifactKey: Guid(a5fed9e06a046cc48826e4775a9394db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:07:47.385Z|0x1121c|Start importing Assets/Scenes/MainMovement/Global Volume Profile.asset using Guid(a5fed9e06a046cc48826e4775a9394db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7b59c0a21fe9d57b26f074d2bc51c08') in 0.0162058 seconds
+2026-03-24T11:07:47.429Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+2026-03-24T11:08:38.643Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 51.214078 seconds.
+  path: Assets/Scenes/MainMovement.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:08:38.654Z|0x1121c|Start importing Assets/Scenes/MainMovement.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2ba3841522066538c40542ca70de5dd') in 0.0221587 seconds
+2026-03-24T11:08:38.703Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-24T11:08:39.159Z|0x1121c|========================================================================
+Received Import Request.
+  Time since last request: 0.456065 seconds.
+  path: Assets/Materials/Obstacle.mat
+  artifactKey: Guid(52308c89587a93041891c58245ff198a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-24T11:08:39.169Z|0x1121c|Start importing Assets/Materials/Obstacle.mat using Guid(52308c89587a93041891c58245ff198a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1dfa1d272088871d355f181becf9856a') in 0.0181571 seconds
+2026-03-24T11:08:39.213Z|0x1121c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
