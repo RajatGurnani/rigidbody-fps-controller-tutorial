@@ -20,3 +20,4 @@ MonoBehaviour:
   fireRate: 200
   reloadTime: 1
   reloading: 0
+  recoilPerShot: 1

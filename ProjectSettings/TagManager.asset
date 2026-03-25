@@ -7,11 +7,12 @@ TagManager:
   - Projectile
   - Ground
   - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 

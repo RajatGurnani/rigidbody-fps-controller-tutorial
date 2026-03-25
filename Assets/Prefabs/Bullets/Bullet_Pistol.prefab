@@ -81,7 +81,7 @@ TrailRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Time: 5
+  m_Time: 0.1
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c108ca25d40582141bbdec277e729941, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
-  speed: 50
+  speed: 100
   gravityScale: 0
   lifetime: 3
   damage: 10

@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponSwitching : MonoBehaviour {
+public class WeaponSwitching : MonoBehaviour
+{
 
     [Header("References")]
     [SerializeField] private Transform[] weapons;
@@ -20,14 +21,16 @@ public class WeaponSwitching : MonoBehaviour {
     public int SelectedWeapon => selectedWeapon;
     public Transform ActiveWeapon => weapons != null && selectedWeapon >= 0 && selectedWeapon < weapons.Length ? weapons[selectedWeapon] : null;
 
-    private void Start() {
+    private void Start()
+    {
         SetWeapons();
         Select(selectedWeapon);
 
         timeSinceLastSwitch = 0f;
     }
 
-    private void SetWeapons() {
+    private void SetWeapons()
+    {
         weapons = new Transform[transform.childCount];
 
         for (int i = 0; i < transform.childCount; i++)
@@ -36,19 +39,39 @@ public class WeaponSwitching : MonoBehaviour {
         if (keys == null) keys = new KeyCode[weapons.Length];
     }
 
-    private void Update() {
+    private void Update()
+    {
         int previousSelectedWeapon = selectedWeapon;
 
+        int value = (int)(Input.mouseScrollDelta.y);
+
+        if (Mathf.Abs(value) >= 1 && timeSinceLastSwitch >= switchTime)
+        {
+            selectedWeapon += (int)Mathf.Sign(value);
+            selectedWeapon = (int)Mathf.Repeat(selectedWeapon, weapons.Length);
+            // selectedWeapon %= weapons.Length;
+        }
+
         for (int i = 0; i < keys.Length; i++)
+        {
+
             if (Input.GetKeyDown(keys[i]) && timeSinceLastSwitch >= switchTime)
+            {
                 selectedWeapon = i;
+                break;
+            }
+        }
 
-        if (previousSelectedWeapon != selectedWeapon) Select(selectedWeapon);
-
+        if (previousSelectedWeapon != selectedWeapon)
+        {
+            Select(selectedWeapon);
+        }
         timeSinceLastSwitch += Time.deltaTime;
     }
 
-    private void Select(int weaponIndex) {
+
+    private void Select(int weaponIndex)
+    {
         for (int i = 0; i < weapons.Length; i++)
             weapons[i].gameObject.SetActive(i == weaponIndex);
 
@@ -57,5 +80,5 @@ public class WeaponSwitching : MonoBehaviour {
         OnWeaponSelected();
     }
 
-    private void OnWeaponSelected() {  }
+    private void OnWeaponSelected() { }
 }

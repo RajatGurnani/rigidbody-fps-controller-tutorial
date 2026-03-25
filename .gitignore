@@ -3,6 +3,7 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Ll]ogs/
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -15,6 +16,7 @@ ExportedObj/
 *.unityproj
 *.sln
 *.suo
+*.log
 *.tmp
 *.user
 *.userprefs
@@ -35,3 +37,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+/Logs
+*.log

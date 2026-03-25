@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 306997efb09f51642a40aed87846dffa
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 162020
+  packageName: Strider
+  packageVersion: 1.01
+  assetPath: Assets/Plugins/AnimationUprising/Strider/Integrations/StriderMxMIntegration.unitypackage
+  uploadId: 355162

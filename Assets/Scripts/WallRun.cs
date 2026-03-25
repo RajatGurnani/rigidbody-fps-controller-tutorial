@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Unity.Cinemachine;
 using UnityEngine;
 
 public class WallRun : MonoBehaviour
@@ -17,11 +16,15 @@ public class WallRun : MonoBehaviour
 
     [Header("Camera")]
     [SerializeField] private Camera cam;
+    [SerializeField] private CinemachineCamera virtualCamera;
     [SerializeField] private float fov;
     [SerializeField] private float wallRunfov;
     [SerializeField] private float wallRunfovTime;
     [SerializeField] private float camTilt;
     [SerializeField] private float camTiltTime;
+
+    [SerializeField] private float maxWallRunTime = 5f;
+    private float wallTimer = 0f;
 
     public float tilt { get; private set; }
 
@@ -55,6 +58,14 @@ public class WallRun : MonoBehaviour
 
         if (CanWallRun())
         {
+            wallTimer += Time.deltaTime;
+            if (wallTimer > maxWallRunTime)
+            {
+                JumpFromWall();
+                StopWallRun();
+                return;
+            }
+
             if (wallLeft)
             {
                 StartWallRun();
@@ -72,6 +83,7 @@ public class WallRun : MonoBehaviour
         }
         else
         {
+            wallTimer = 0f;
             StopWallRun();
         }
     }
@@ -82,7 +94,8 @@ public class WallRun : MonoBehaviour
 
         rb.AddForce(Vector3.down * wallRunGravity, ForceMode.Force);
 
-        cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, wallRunfov, wallRunfovTime * Time.deltaTime);
+        // cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, wallRunfov, wallRunfovTime * Time.deltaTime);
+        virtualCamera.Lens.FieldOfView = Mathf.Lerp(virtualCamera.Lens.FieldOfView, wallRunfov, wallRunfovTime * Time.deltaTime);
 
         if (wallLeft)
             tilt = Mathf.Lerp(tilt, -camTilt, camTiltTime * Time.deltaTime);
@@ -92,18 +105,23 @@ public class WallRun : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (wallLeft)
-            {
-                Vector3 wallRunJumpDirection = transform.up + leftWallHit.normal;
-                rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
-                rb.AddForce(wallRunJumpDirection * wallRunJumpForce * 100, ForceMode.Force);
-            }
-            else if (wallRight)
-            {
-                Vector3 wallRunJumpDirection = transform.up + rightWallHit.normal;
-                rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z); 
-                rb.AddForce(wallRunJumpDirection * wallRunJumpForce * 100, ForceMode.Force);
-            }
+            JumpFromWall();
+        }
+    }
+
+    private void JumpFromWall()
+    {
+        if (wallLeft)
+        {
+            Vector3 wallRunJumpDirection = transform.up + leftWallHit.normal;
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
+            rb.AddForce(wallRunJumpDirection * wallRunJumpForce * 100, ForceMode.Force);
+        }
+        else if (wallRight)
+        {
+            Vector3 wallRunJumpDirection = transform.up + rightWallHit.normal;
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
+            rb.AddForce(wallRunJumpDirection * wallRunJumpForce * 100, ForceMode.Force);
         }
     }
 
@@ -113,5 +131,6 @@ public class WallRun : MonoBehaviour
 
         cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, fov, wallRunfovTime * Time.deltaTime);
         tilt = Mathf.Lerp(tilt, 0, camTiltTime * Time.deltaTime);
+        wallTimer = 0f;
     }
 }
