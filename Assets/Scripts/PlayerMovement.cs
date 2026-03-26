@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDirection;
     Vector3 slopeMoveDirection;
 
-    Rigidbody rb;
+    public Rigidbody rb;
 
     RaycastHit slopeHit;
 

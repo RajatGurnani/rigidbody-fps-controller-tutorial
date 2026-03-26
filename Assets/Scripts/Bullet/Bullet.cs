@@ -41,6 +41,13 @@ public class Bullet : MonoBehaviour
     private string _poolKey;
     private ObjectPool<Bullet> _pool;
     private Rigidbody _rb;
+    public Rigidbody RB
+    {
+        get
+        {
+            return _rb;
+        }
+    }
     private Coroutine _lifetimeCoroutine;
     private bool _active;
 

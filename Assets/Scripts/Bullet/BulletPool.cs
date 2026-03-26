@@ -77,20 +77,20 @@ public class BulletPool : MonoBehaviour
             container.SetParent(transform);
 
             // Capture locals for lambdas
-            Bullet    capturedPrefab     = prefab;
-            string    capturedKey        = key;
-            Transform capturedContainer  = container;
+            Bullet capturedPrefab = prefab;
+            string capturedKey = key;
+            Transform capturedContainer = container;
 
             var entry = new PoolEntry { prefab = prefab, container = container };
 
             entry.pool = new ObjectPool<Bullet>(
-                createFunc:      ()       => CreateBullet(capturedPrefab, capturedKey, capturedContainer, entry.pool),
-                actionOnGet:     bullet   => { bullet.gameObject.SetActive(true); bullet.OnSpawn(); },
-                actionOnRelease: bullet   => { bullet.gameObject.SetActive(false); bullet.transform.SetParent(capturedContainer); },
-                actionOnDestroy: bullet   => Destroy(bullet.gameObject),
+                createFunc: () => CreateBullet(capturedPrefab, capturedKey, capturedContainer, entry.pool),
+                actionOnGet: bullet => { bullet.gameObject.SetActive(true); bullet.OnSpawn(); },
+                actionOnRelease: bullet => { bullet.gameObject.SetActive(false); bullet.transform.SetParent(capturedContainer); },
+                actionOnDestroy: bullet => Destroy(bullet.gameObject),
                 collectionCheck: false,
                 defaultCapacity: defaultCapacity,
-                maxSize:         maxSize
+                maxSize: maxSize
             );
 
             _entries[key] = entry;

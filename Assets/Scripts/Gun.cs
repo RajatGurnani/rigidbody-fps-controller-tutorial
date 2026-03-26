@@ -66,7 +66,14 @@ public class Gun : MonoBehaviour
         if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hitInfo, gunData.maxDistance))
         {
             hitInfo.transform?.GetComponent<IDamageable>()?.TakeDamage(gunData.damage);
-            direction = (hitInfo.point - firePoint.position).normalized;
+            if (hitInfo.collider.CompareTag("Ground"))
+            {
+                direction = (hitInfo.point - firePoint.position).normalized;
+            }
+            else
+            {
+                direction = firePoint.forward;
+            }
         }
         else
         {
@@ -82,8 +89,8 @@ public class Gun : MonoBehaviour
             playerMovement.ApplyKickback(-direction * gunData.recoilPerShot);
         }
 
-        BulletPool.Instance.Get(bulletKey, firePoint.position, firePoint.rotation);
-
+        var bullet = BulletPool.Instance.Get(bulletKey, firePoint.position, firePoint.rotation);
+        // bullet.RB.linearVelocity = playerMovement.rb.linearVelocity + bullet.Speed * bullet.transform.forward;
         currentAmmo--;
         if (currentAmmo <= 0)
         {

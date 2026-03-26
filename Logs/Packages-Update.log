@@ -101,3 +101,11 @@ The following packages were added:
   com.unity.jobs@0.1.1-preview
   com.unity.mathematics@1.3.3
   com.unity.playablegraph-visualizer@0.2.1-preview.3
+
+=== Thu Mar 26 12:22:29 2026
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.cinemachine from version 2.9.7 to 2.10.5

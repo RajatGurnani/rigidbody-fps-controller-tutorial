@@ -9,6 +9,8 @@ public class ZombieSpawner : MonoBehaviour
     [SerializeField] private float spawnInterval = 5f;
     [SerializeField] private Transform player;
 
+    public float width = 50f, length = 50f;
+
     private List<GameObject> activeZombies = new List<GameObject>();
     private float lastSpawnTime;
 
@@ -36,6 +38,8 @@ public class ZombieSpawner : MonoBehaviour
     {
         // Random position around player
         Vector3 spawnPos = player.position + Random.insideUnitSphere * spawnRadius;
+        spawnPos.x = Random.Range(-width, width);
+        spawnPos.z = Random.Range(-length, length);
         spawnPos.y = player.position.y; // Keep on ground
 
         GameObject zombie = Instantiate(zombiePrefab, spawnPos, Quaternion.identity);

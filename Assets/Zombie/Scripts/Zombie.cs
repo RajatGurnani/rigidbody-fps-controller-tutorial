@@ -18,6 +18,8 @@ public class Zombie : MonoBehaviour, IDamageable
     private Vector3 pendingMoveDirection;
     private Quaternion pendingRotation;
 
+    public LayerMask afterDeathExclusionLayers;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -80,7 +82,11 @@ public class Zombie : MonoBehaviour, IDamageable
 
     void FixedUpdate()
     {
-        if (isDead) return;
+        if (isDead)
+        {
+            rb.linearVelocity = new Vector3(0f, rb.linearVelocity.y, 0f);
+            return;
+        }
 
         // Rotation
         rb.MoveRotation(pendingRotation);
@@ -112,12 +118,21 @@ public class Zombie : MonoBehaviour, IDamageable
     void Die()
     {
         isDead = true;
-        animator.enabled = false;
+        // animator.enabled = false;
 
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
-        if (col != null) col.enabled = false;
+        // if (col != null) col.enabled = false;
+        animator.SetBool("Death", true);
+        rb.excludeLayers = afterDeathExclusionLayers;
 
-        Destroy(gameObject, 5f);
+        animator.CrossFade("Death", 0.1f);
+
+        // Destroy(gameObject, 5f);
+    }
+
+    void Randomize()
+    {
+
     }
 }

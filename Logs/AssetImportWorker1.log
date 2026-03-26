@@ -1,360 +1,966 @@
-2026-03-25T05:40:53.516Z|0x8cbc|[Licensing::Module] Trying to connect to existing licensing client channel...
-2026-03-25T05:40:53.516Z|0x1348|Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
-2026-03-25T05:40:53.516Z|0x1348|OS: 'Windows 11  (10.0.26100) CoreSingleLanguage' Language: 'en' Physical Memory: 23983 MB
-2026-03-25T05:40:53.516Z|0x1348|BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-2026-03-25T05:40:53.516Z|0x1348|System  architecture: x64
-2026-03-25T05:40:53.516Z|0x8cbc|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat" at "2026-03-25T05:40:53.5165035Z"
-2026-03-25T05:40:53.516Z|0x1348|Process architecture: x64
-2026-03-25T05:40:53.516Z|0x1348|Date: 2026-03-25T05:40:53Z
-2026-03-25T05:40:53.643Z|0x1348|
+2026-03-26T05:36:38.601Z|0xe78c|[Licensing::Module] Trying to connect to existing licensing client channel...
+2026-03-26T05:36:38.602Z|0x10030|Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+2026-03-26T05:36:38.602Z|0x10030|OS: 'Windows 11  (10.0.26100) CoreSingleLanguage' Language: 'en' Physical Memory: 23983 MB
+2026-03-26T05:36:38.602Z|0xe78c|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat" at "2026-03-26T05:36:38.6022784Z"
+2026-03-26T05:36:38.602Z|0x10030|BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+2026-03-26T05:36:38.602Z|0x10030|System  architecture: x64
+2026-03-26T05:36:38.602Z|0x10030|Process architecture: x64
+2026-03-26T05:36:38.602Z|0x10030|Date: 2026-03-26T05:36:38Z
+2026-03-26T05:36:38.752Z|0x10030|
 COMMAND LINE ARGUMENTS:
-2026-03-25T05:40:53.643Z|0x1348|C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
-2026-03-25T05:40:53.643Z|0x1348|-adb2
-2026-03-25T05:40:53.643Z|0x1348|-batchMode
-2026-03-25T05:40:53.643Z|0x1348|-noUpm
-2026-03-25T05:40:53.643Z|0x1348|-name
-2026-03-25T05:40:53.643Z|0x1348|AssetImportWorker1
-2026-03-25T05:40:53.643Z|0x1348|-projectPath
-2026-03-25T05:40:53.643Z|0x1348|D:/Work/rigidbody-fps-controller-tutorial
-2026-03-25T05:40:53.643Z|0x1348|-logFile
-2026-03-25T05:40:53.643Z|0x1348|Logs/AssetImportWorker1.log
-2026-03-25T05:40:53.643Z|0x1348|-srvPort
-2026-03-25T05:40:53.643Z|0x1348|56574
-2026-03-25T05:40:53.643Z|0x1348|-licensingIpc
-2026-03-25T05:40:53.643Z|0x1348|LicenseClient-Rajat
-2026-03-25T05:40:53.643Z|0x1348|-job-worker-count
-2026-03-25T05:40:53.643Z|0x1348|7
-2026-03-25T05:40:53.643Z|0x1348|-background-job-worker-count
-2026-03-25T05:40:53.643Z|0x1348|8
-2026-03-25T05:40:53.643Z|0x1348|-gc-helper-count
-2026-03-25T05:40:53.643Z|0x1348|1
-2026-03-25T05:40:53.643Z|0x1348|-name
-2026-03-25T05:40:53.643Z|0x1348|AssetImport
-2026-03-25T05:40:53.643Z|0x1348|Successfully changed project path to: D:/Work/rigidbody-fps-controller-tutorial
-2026-03-25T05:40:53.644Z|0x1348|D:/Work/rigidbody-fps-controller-tutorial
-2026-03-25T05:40:53.644Z|0x1348|[UnityMemory] Configuration Parameters - Can be set up in boot.config
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-audio-worker=65536"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-gfx=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-allocator-temp-initial-block-size-main=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-allocator-temp-initial-block-size-worker=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-background-worker=32768"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-job-worker=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-preload-manager=33554432"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-bucket-allocator-granularity=16"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-bucket-allocator-bucket-count=8"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-bucket-allocator-block-size=33554432"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-bucket-allocator-block-count=8"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-main-allocator-block-size=16777216"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-thread-allocator-block-size=16777216"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-gfx-main-allocator-block-size=16777216"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-gfx-thread-allocator-block-size=16777216"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-cache-allocator-block-size=4194304"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-typetree-allocator-block-size=2097152"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-profiler-bucket-allocator-granularity=16"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-profiler-bucket-allocator-bucket-count=8"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-profiler-bucket-allocator-block-size=33554432"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-profiler-bucket-allocator-block-count=8"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-profiler-allocator-block-size=16777216"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-profiler-editor-allocator-block-size=1048576"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-main=16777216"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-job-temp-allocator-block-size=2097152"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-job-temp-allocator-block-size-background=1048576"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-2026-03-25T05:40:53.645Z|0x1348|    "memorysetup-temp-allocator-size-cloud-worker=32768"
-2026-03-25T05:40:53.656Z|0x1348|Player connection [4936]  Target information:
+2026-03-26T05:36:38.752Z|0x10030|C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+2026-03-26T05:36:38.752Z|0x10030|-adb2
+2026-03-26T05:36:38.752Z|0x10030|-batchMode
+2026-03-26T05:36:38.752Z|0x10030|-noUpm
+2026-03-26T05:36:38.752Z|0x10030|-name
+2026-03-26T05:36:38.752Z|0x10030|AssetImportWorker1
+2026-03-26T05:36:38.752Z|0x10030|-projectPath
+2026-03-26T05:36:38.752Z|0x10030|D:/Work/rigidbody-fps-controller-tutorial
+2026-03-26T05:36:38.752Z|0x10030|-logFile
+2026-03-26T05:36:38.752Z|0x10030|Logs/AssetImportWorker1.log
+2026-03-26T05:36:38.752Z|0x10030|-srvPort
+2026-03-26T05:36:38.752Z|0x10030|64364
+2026-03-26T05:36:38.752Z|0x10030|-licensingIpc
+2026-03-26T05:36:38.752Z|0x10030|LicenseClient-Rajat
+2026-03-26T05:36:38.752Z|0x10030|-job-worker-count
+2026-03-26T05:36:38.752Z|0x10030|7
+2026-03-26T05:36:38.752Z|0x10030|-background-job-worker-count
+2026-03-26T05:36:38.752Z|0x10030|8
+2026-03-26T05:36:38.752Z|0x10030|-gc-helper-count
+2026-03-26T05:36:38.752Z|0x10030|1
+2026-03-26T05:36:38.753Z|0x10030|-name
+2026-03-26T05:36:38.753Z|0x10030|AssetImport
+2026-03-26T05:36:38.753Z|0x10030|Successfully changed project path to: D:/Work/rigidbody-fps-controller-tutorial
+2026-03-26T05:36:38.754Z|0x10030|D:/Work/rigidbody-fps-controller-tutorial
+2026-03-26T05:36:38.754Z|0x10030|[UnityMemory] Configuration Parameters - Can be set up in boot.config
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-audio-worker=65536"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-gfx=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-allocator-temp-initial-block-size-main=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-background-worker=32768"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-job-worker=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-preload-manager=33554432"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-bucket-allocator-granularity=16"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-bucket-allocator-bucket-count=8"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-bucket-allocator-block-size=33554432"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-bucket-allocator-block-count=8"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-main-allocator-block-size=16777216"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-thread-allocator-block-size=16777216"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-gfx-main-allocator-block-size=16777216"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-gfx-thread-allocator-block-size=16777216"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-cache-allocator-block-size=4194304"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-typetree-allocator-block-size=2097152"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-profiler-bucket-allocator-granularity=16"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-profiler-bucket-allocator-block-count=8"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-profiler-allocator-block-size=16777216"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-profiler-editor-allocator-block-size=1048576"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-main=16777216"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-job-temp-allocator-block-size=2097152"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-job-temp-allocator-block-size-background=1048576"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+2026-03-26T05:36:38.754Z|0x10030|    "memorysetup-temp-allocator-size-cloud-worker=32768"
+2026-03-26T05:36:38.763Z|0x10030|Player connection [65584]  Target information:
 
-2026-03-25T05:40:53.656Z|0x1348|Player connection [4936]  * "[IP] 192.168.3.130 [Port] 0 [Flags] 2 [Guid] 378873478 [EditorId] 378873478 [Version] 1048832 [Id] WindowsEditor(7,Rajat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+2026-03-26T05:36:38.763Z|0x10030|Player connection [65584]  * "[IP] 192.168.1.24 [Port] 0 [Flags] 2 [Guid] 697479377 [EditorId] 697479377 [Version] 1048832 [Id] WindowsEditor(7,Rajat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-2026-03-25T05:40:53.659Z|0x1348|Player connection [4936] Host joined multi-casting on [225.0.0.222:54997]...
-2026-03-25T05:40:53.660Z|0x1348|Player connection [4936] Host joined alternative multi-casting on [225.0.0.222:34997]...
-2026-03-25T05:40:53.660Z|0x1348|JobSystem: Creating JobQueue using job-worker-count value 7
-2026-03-25T05:40:53.666Z|0x1348|Input System module state changed to: Initialized.
-2026-03-25T05:40:53.668Z|0x1348|[Physics::Module] Initialized fallback backend.
-2026-03-25T05:40:53.668Z|0x1348|[Physics::Module] Id: 0xdecafbad
-2026-03-25T05:40:53.728Z|0x1348|Library Redirect Path: Library/
-2026-03-25T05:40:53.774Z|0x1348|[Physics::Module] Selected backend.
-2026-03-25T05:40:53.774Z|0x1348|[Physics::Module] Name: PhysX
-2026-03-25T05:40:53.774Z|0x1348|[Physics::Module] Id: 0xf2b8ea05
-2026-03-25T05:40:53.774Z|0x1348|[Physics::Module] SDK Version: 4.1.2
-2026-03-25T05:40:53.775Z|0x1348|[Physics::Module] Integration Version: 1.0.0
-2026-03-25T05:40:53.775Z|0x1348|[Physics::Module] Threading Mode: Multi-Threaded
-2026-03-25T05:40:53.793Z|0x1348|Refreshing native plugins compatible for Editor in 9.87 ms, found 3 plugins.
-2026-03-25T05:40:53.793Z|0x1348|Preloading 0 native plugins for Editor in 0.00 ms.
-2026-03-25T05:40:53.794Z|0x1348|Initialize engine version: 6000.3.8f1 (1c7db571dde0)
-2026-03-25T05:40:53.794Z|0x1348|[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
-2026-03-25T05:40:53.794Z|0x1348|[Subsystems] Discovering subsystems at path D:/Work/rigidbody-fps-controller-tutorial/Assets
-2026-03-25T05:40:53.795Z|0x1348|GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-2026-03-25T05:40:54.123Z|0x1348|Direct3D:
-2026-03-25T05:40:54.123Z|0x1348|    Version:  Direct3D 11.0 [level 11.1]
-2026-03-25T05:40:54.123Z|0x1348|    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
-2026-03-25T05:40:54.123Z|0x1348|    Vendor:   NVIDIA
-2026-03-25T05:40:54.123Z|0x1348|    VRAM:     3937 MB
-2026-03-25T05:40:54.123Z|0x1348|    Driver:   32.0.15.7700
-2026-03-25T05:40:54.335Z|0x1348|Initialize mono
-2026-03-25T05:40:54.335Z|0x1348|Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
-2026-03-25T05:40:54.335Z|0x1348|Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-2026-03-25T05:40:54.335Z|0x1348|Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-2026-03-25T05:40:54.335Z|0x1348|Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
-2026-03-25T05:40:54.427Z|0x1348|Begin MonoManager ReloadAssembly
-2026-03-25T05:40:54.809Z|0x1348|Registering precompiled unity dll's ...
-2026-03-25T05:40:54.810Z|0x1348|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-2026-03-25T05:40:54.811Z|0x1348|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-2026-03-25T05:40:54.812Z|0x1348|[Licensing::Module] Licensing is not yet initialized.
-2026-03-25T05:40:54.865Z|0x8cbc|[Licensing::Client] Handshaking with LicensingClient:
+2026-03-26T05:36:38.765Z|0x10030|Player connection [65584] Host joined multi-casting on [225.0.0.222:54997]...
+2026-03-26T05:36:38.766Z|0x10030|Player connection [65584] Host joined alternative multi-casting on [225.0.0.222:34997]...
+2026-03-26T05:36:38.766Z|0x10030|JobSystem: Creating JobQueue using job-worker-count value 7
+2026-03-26T05:36:38.771Z|0x10030|Input System module state changed to: Initialized.
+2026-03-26T05:36:38.773Z|0x10030|[Physics::Module] Initialized fallback backend.
+2026-03-26T05:36:38.773Z|0x10030|[Physics::Module] Id: 0xdecafbad
+2026-03-26T05:36:38.871Z|0x10030|Library Redirect Path: Library/
+2026-03-26T05:36:38.934Z|0x10030|[Physics::Module] Selected backend.
+2026-03-26T05:36:38.934Z|0x10030|[Physics::Module] Name: PhysX
+2026-03-26T05:36:38.934Z|0x10030|[Physics::Module] Id: 0xf2b8ea05
+2026-03-26T05:36:38.935Z|0x10030|[Physics::Module] SDK Version: 4.1.2
+2026-03-26T05:36:38.935Z|0x10030|[Physics::Module] Integration Version: 1.0.0
+2026-03-26T05:36:38.935Z|0x10030|[Physics::Module] Threading Mode: Multi-Threaded
+2026-03-26T05:36:39.089Z|0x10030|Refreshing native plugins compatible for Editor in 144.30 ms, found 3 plugins.
+2026-03-26T05:36:39.089Z|0x10030|Preloading 0 native plugins for Editor in 0.00 ms.
+2026-03-26T05:36:39.089Z|0x10030|Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+2026-03-26T05:36:39.089Z|0x10030|[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+2026-03-26T05:36:39.089Z|0x10030|[Subsystems] Discovering subsystems at path D:/Work/rigidbody-fps-controller-tutorial/Assets
+2026-03-26T05:36:39.090Z|0x10030|GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+2026-03-26T05:36:39.370Z|0x10030|Direct3D:
+2026-03-26T05:36:39.370Z|0x10030|    Version:  Direct3D 11.0 [level 11.1]
+2026-03-26T05:36:39.370Z|0x10030|    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+2026-03-26T05:36:39.370Z|0x10030|    Vendor:   NVIDIA
+2026-03-26T05:36:39.370Z|0x10030|    VRAM:     3937 MB
+2026-03-26T05:36:39.370Z|0x10030|    Driver:   32.0.15.7700
+2026-03-26T05:36:39.805Z|0xe78c|[Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              8bf810b6553c4ec8b1b5c6639ad88fa6
-  Correlation Id:          908a789f1b7585b21ed49361f52e8b09
-  External correlation Id: 86450054985882289
+  Session Id:              50fdd13f9d0748de8a43b4bd77f74710
+  Correlation Id:          f946aece0ee89e47364d3bf1c19a29da
+  External correlation Id: 5664578235290402258
   Machine Id:              bZLnVjDChyW3KAMtcXptXTvD4Rw=
-2026-03-25T05:40:54.865Z|0x8cbc|[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Rajat" (connect: 0.00s, validation: 0.00s, handshake: 1.35s)
-2026-03-25T05:40:54.865Z|0x8cbc|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat-notifications" at "2026-03-25T05:40:54.8653379Z"
-2026-03-25T05:40:54.865Z|0x8cbc|[Licensing::Module] Licensing Background thread has ended after 1.35s
-2026-03-25T05:40:54.865Z|0x1348|[Licensing::Module] Licensing is initialized (took 0.05s).
-2026-03-25T05:40:54.868Z|0x1348|[Licensing::Client] Successfully resolved entitlement details
-2026-03-25T05:40:54.868Z|0x1348|[Licensing::Module] License group:
+2026-03-26T05:36:39.806Z|0xe78c|[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Rajat" (connect: 0.00s, validation: 0.00s, handshake: 1.20s)
+2026-03-26T05:36:39.806Z|0xe78c|[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Rajat-notifications" at "2026-03-26T05:36:39.8061925Z"
+2026-03-26T05:36:39.806Z|0xe78c|[Licensing::Module] Licensing Background thread has ended after 1.20s
+2026-03-26T05:36:40.759Z|0x10030|Initialize mono
+2026-03-26T05:36:40.759Z|0x10030|Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+2026-03-26T05:36:40.759Z|0x10030|Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+2026-03-26T05:36:40.759Z|0x10030|Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+2026-03-26T05:36:40.760Z|0x10030|Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+2026-03-26T05:36:40.857Z|0x10030|Begin MonoManager ReloadAssembly
+2026-03-26T05:36:41.375Z|0x10030|Registering precompiled unity dll's ...
+2026-03-26T05:36:41.376Z|0x10030|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+2026-03-26T05:36:41.377Z|0x10030|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+2026-03-26T05:36:41.380Z|0x10030|[Licensing::Client] Successfully resolved entitlement details
+2026-03-26T05:36:41.380Z|0x10030|[Licensing::Module] License group:
   Id: 13469681201219-rendered-ideas-softgame-pvt-ltd-UnitXXXX
   Product: Unity Pro
   Type: Assigned
   Expiration: 2026-04-07T00:00:00Z
-2026-03-25T05:40:54.868Z|0x1348|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-2026-03-25T05:40:54.869Z|0x1348|Registered in 0.060474 seconds.
-2026-03-25T05:40:55.159Z|0x1348|- Loaded All Assemblies, in  0.733 seconds
-2026-03-25T05:40:55.258Z|0x1348|Native extension for Android target not found
-2026-03-25T05:40:55.619Z|0x1348|Android Extension - Scanning For ADB Devices 309 ms
+2026-03-26T05:36:41.380Z|0x10030|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+2026-03-26T05:36:41.381Z|0x10030|Registered in 0.006006 seconds.
+2026-03-26T05:36:42.723Z|0x10030|- Loaded All Assemblies, in  1.866 seconds
+2026-03-26T05:36:42.821Z|0x10030|Native extension for Android target not found
+2026-03-26T05:36:43.128Z|0x10030|Android Extension - Scanning For ADB Devices 263 ms
 Native extension for WindowsStandalone target not found
-2026-03-25T05:40:55.620Z|0x1348|Native extension for WebGL target not found
-2026-03-25T05:40:56.080Z|0x1348|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+2026-03-26T05:36:43.129Z|0x10030|Native extension for WebGL target not found
+2026-03-26T05:36:43.502Z|0x10030|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-2026-03-25T05:40:56.121Z|0x1348|- Finished resetting the current domain, in  0.962 seconds
-2026-03-25T05:40:56.122Z|0x1348|Domain Reload Profiling: 1693ms
-	BeginReloadAssembly (265ms)
+2026-03-26T05:36:43.550Z|0x10030|- Finished resetting the current domain, in  0.827 seconds
+2026-03-26T05:36:43.551Z|0x10030|Domain Reload Profiling: 2691ms
+	BeginReloadAssembly (434ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (135ms)
-	LoadAllAssembliesAndSetupDomain (249ms)
-		LoadAssemblies (262ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1302ms)
+		LoadAssemblies (433ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (243ms)
-			TypeCache.Refresh (241ms)
-				TypeCache.ScanAssembly (223ms)
+		AnalyzeDomain (1297ms)
+			TypeCache.Refresh (1295ms)
+				TypeCache.ScanAssembly (857ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (962ms)
+	FinalizeReload (828ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (918ms)
+		SetupLoadedEditorAssemblies (773ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (436ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (239ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
+			InitializePlatformSupportModulesInManaged (370ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
-2026-03-25T05:40:56.259Z|0x1348|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+2026-03-26T05:36:44.628Z|0x10030|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 ========================================================================
-2026-03-25T05:40:56.346Z|0x1348|Worker process is ready to serve import requests
-2026-03-25T05:40:56.350Z|0x1348|Import Worker Mode flag is 0x00
-2026-03-25T05:40:56.414Z|0x1348|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+2026-03-26T05:36:44.731Z|0x10030|Worker process is ready to serve import requests
+2026-03-26T05:36:44.735Z|0x10030|Import Worker Mode flag is 0x00
+2026-03-26T05:36:44.804Z|0x10030|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-2026-03-25T05:40:56.618Z|0x1348|[Licensing::Client] Successfully resolved entitlement details
-2026-03-25T05:40:57.679Z|0x1348|- Loaded All Assemblies, in  1.065 seconds
-2026-03-25T05:40:57.847Z|0x1348|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+2026-03-26T05:36:45.025Z|0x10030|[Licensing::Client] Successfully resolved entitlement details
+2026-03-26T05:36:47.230Z|0x10030|- Loaded All Assemblies, in  2.208 seconds
+2026-03-26T05:36:47.398Z|0x10030|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-2026-03-25T05:40:57.981Z|0x1348|'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-2026-03-25T05:40:58.019Z|0x1348|Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-2026-03-25T05:40:58.263Z|0x1348|Native extension for Android target not found
-2026-03-25T05:40:58.275Z|0x1348|Native extension for WindowsStandalone target not found
-2026-03-25T05:40:58.276Z|0x1348|Native extension for WebGL target not found
-2026-03-25T05:40:58.516Z|0x1348|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+2026-03-26T05:36:47.537Z|0x10030|'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+2026-03-26T05:36:47.576Z|0x10030|Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+2026-03-26T05:36:48.476Z|0x10030|Native extension for Android target not found
+2026-03-26T05:36:48.484Z|0x10030|Native extension for WindowsStandalone target not found
+2026-03-26T05:36:48.485Z|0x10030|Native extension for WebGL target not found
+2026-03-26T05:36:48.659Z|0x10030|Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-tutorial
 Package Manager log level set to [2]
-2026-03-25T05:40:58.940Z|0x1348|[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-2026-03-25T05:40:58.940Z|0x1348|[Package Manager] Unable to send message (not connected to server process).
-2026-03-25T05:40:58.940Z|0x1348|[Package Manager] Cannot connect to Unity Package Manager local server
-2026-03-25T05:40:58.955Z|0x1348|[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-2026-03-25T05:40:58.955Z|0x1348|[Package Manager] Unable to send message (not connected to server process).
-2026-03-25T05:40:58.955Z|0x1348|[Package Manager] Cannot connect to Unity Package Manager local server
-2026-03-25T05:40:59.283Z|0x1348|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+2026-03-26T05:36:49.029Z|0x10030|[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+2026-03-26T05:36:49.029Z|0x10030|[Package Manager] Unable to send message (not connected to server process).
+2026-03-26T05:36:49.029Z|0x10030|[Package Manager] Cannot connect to Unity Package Manager local server
+2026-03-26T05:36:49.043Z|0x10030|[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+2026-03-26T05:36:49.043Z|0x10030|[Package Manager] Unable to send message (not connected to server process).
+2026-03-26T05:36:49.043Z|0x10030|[Package Manager] Cannot connect to Unity Package Manager local server
+2026-03-26T05:36:49.370Z|0x10030|ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-2026-03-25T05:40:59.344Z|0x1348|- Finished resetting the current domain, in  1.325 seconds
-2026-03-25T05:40:59.345Z|0x1348|Domain Reload Profiling: 2387ms
-	BeginReloadAssembly (251ms)
+2026-03-26T05:36:49.428Z|0x10030|- Finished resetting the current domain, in  1.851 seconds
+2026-03-26T05:36:49.429Z|0x10030|Domain Reload Profiling: 4057ms
+	BeginReloadAssembly (235ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (45ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (705ms)
-		LoadAssemblies (505ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (1863ms)
+		LoadAssemblies (1591ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (332ms)
-			TypeCache.Refresh (252ms)
-				TypeCache.ScanAssembly (228ms)
-			BuildScriptInfoCaches (63ms)
+		AnalyzeDomain (393ms)
+			TypeCache.Refresh (306ms)
+				TypeCache.ScanAssembly (287ms)
+			BuildScriptInfoCaches (70ms)
 			ResolveRequiredComponents (12ms)
-	FinalizeReload (1325ms)
+	FinalizeReload (1851ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1048ms)
+		SetupLoadedEditorAssemblies (921ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (318ms)
-			ProcessInitializeOnLoadAttributes (602ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (249ms)
+			ProcessInitializeOnLoadAttributes (555ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-2026-03-25T05:40:59.546Z|0x1348|Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-2026-03-25T05:41:00.039Z|0x1348|Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-2026-03-25T05:41:00.039Z|0x1348|Preloading 0 native plugins for Editor in 0.00 ms.
-2026-03-25T05:41:00.043Z|0x2f74|Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-2026-03-25T05:41:00.067Z|0x1348|Unloading 5047 unused Assets / (3.8 MB). Loaded Objects now: 5868.
-Memory consumption went from 136.1 MB to 132.3 MB.
-2026-03-25T05:41:00.067Z|0x1348|Total: 23.945100 ms (FindLiveObjects: 1.737600 ms CreateObjectMapping: 1.853400 ms MarkObjects: 14.940900 ms  DeleteObjects: 5.408800 ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+2026-03-26T05:36:49.636Z|0x10030|Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+2026-03-26T05:36:50.198Z|0x10030|Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
+2026-03-26T05:36:50.198Z|0x10030|Preloading 0 native plugins for Editor in 0.00 ms.
+2026-03-26T05:36:50.201Z|0xeb44|Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+2026-03-26T05:36:50.229Z|0x10030|Unloading 5449 unused Assets / (4.7 MB). Loaded Objects now: 6298.
+Memory consumption went from 145.3 MB to 140.6 MB.
+2026-03-26T05:36:50.229Z|0x10030|Total: 27.648700 ms (FindLiveObjects: 2.026900 ms CreateObjectMapping: 2.560800 ms MarkObjects: 16.075700 ms  DeleteObjects: 6.983200 ms)
 
-2026-03-25T05:41:00.068Z|0x1348|========================================================================
+2026-03-26T05:36:50.231Z|0x10030|========================================================================
 Received Import Request.
-  Time since last request: 2479664.411397 seconds.
-  path: Assets/Scripts/WeaponSwitching.cs
-  artifactKey: Guid(b0d9f8d22949f4b4db423770e8dddd9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:00.096Z|0x1348|Start importing Assets/Scripts/WeaponSwitching.cs using Guid(b0d9f8d22949f4b4db423770e8dddd9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fff7f97ee9d5a5f57f98dd949231c6b') in 0.2047099 seconds
-2026-03-25T05:41:00.541Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 2565816.067988 seconds.
+  path: Assets/PBS Barrels and Crates
+  artifactKey: Guid(2ba21b63245fb4347a29b324fa776224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2026-03-26T05:36:50.255Z|0x10030|Start importing Assets/PBS Barrels and Crates using Guid(2ba21b63245fb4347a29b324fa776224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b618f0d9576b87c587fd7b1fcce0eb5a') in 0.0125054 seconds
+2026-03-26T05:36:50.687Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-2026-03-25T05:41:00.542Z|0x1348|========================================================================
+2026-03-26T05:37:05.501Z|0x10030|========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
-  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:00.582Z|0x1348|Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77c2592d5031455cdc3ae76d84d901e1') in 0.1268161 seconds
-2026-03-25T05:41:00.881Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 14.814088 seconds.
+  path: Assets/PBS Barrels and Crates/AutoDestroyDemo.unity
+  artifactKey: Guid(1de8e3a334d4448eb85772bdf62cc684) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:05.511Z|0x10030|Start importing Assets/PBS Barrels and Crates/AutoDestroyDemo.unity using Guid(1de8e3a334d4448eb85772bdf62cc684) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f299f5cd3b6c24442df2d1607142de0') in 0.092249 seconds
+2026-03-26T05:37:05.644Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-2026-03-25T05:41:00.881Z|0x1348|========================================================================
+2026-03-26T05:37:05.644Z|0x10030|========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials
-  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:00.914Z|0x1348|Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f65056b6c4c1fe4cfcdf39c4ad3ee380') in 0.0376756 seconds
-2026-03-25T05:41:01.037Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000046 seconds.
+  path: Assets/PBS Barrels and Crates/Models/BarrelWithTap.fbx
+  artifactKey: Guid(ef32248d44e6c4255b52dc3ca8dfac79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:05.662Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/BarrelWithTap.fbx using Guid(ef32248d44e6c4255b52dc3ca8dfac79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bcb0deab873c74945a602db6f53bf95') in 0.1658116 seconds
+2026-03-26T05:37:05.858Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
-2026-03-25T05:41:01.038Z|0x1348|========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
-  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:01.057Z|0x1348|Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e88cc53e8f8ce7b48d3171f1d7f16919') in 0.0609487 seconds
-2026-03-25T05:41:01.188Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-2026-03-25T05:41:01.189Z|0x1348|========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
-  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:01.209Z|0x1348|Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ff26e8f66cbf97a435a5b3c8c93d69d') in 0.0576825 seconds
-2026-03-25T05:41:01.314Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-2026-03-25T05:41:01.314Z|0x1348|========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
-  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:01.333Z|0x1348|Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f64093d6e9bfd90612726a8a9c06ae3') in 0.0447691 seconds
-2026-03-25T05:41:01.449Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-2026-03-25T05:41:01.450Z|0x1348|========================================================================
+2026-03-26T05:37:05.858Z|0x10030|========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/Scripts/Bullet/Bullet.cs
-  artifactKey: Guid(c108ca25d40582141bbdec277e729941) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:01.482Z|0x1348|Start importing Assets/Scripts/Bullet/Bullet.cs using Guid(c108ca25d40582141bbdec277e729941) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f401f254b99b6442696631c5471b7ff') in 0.02644 seconds
-2026-03-25T05:41:01.572Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  path: Assets/PBS Barrels and Crates/Barrel Dry Highpoly.prefab
+  artifactKey: Guid(9e1aac4af1443c346a2e51796f6f9358) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:05.872Z|0x10030|Start importing Assets/PBS Barrels and Crates/Barrel Dry Highpoly.prefab using Guid(9e1aac4af1443c346a2e51796f6f9358) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b60208bc223e0cb044fda33dc6d79e49') in 0.0440906 seconds
+2026-03-26T05:37:05.944Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
-2026-03-25T05:41:01.572Z|0x1348|========================================================================
+2026-03-26T05:37:05.944Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/Metal Crate Albedo.png
+  artifactKey: Guid(8dc0f763c33c2d043ac793f7dc4edb3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:05.958Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/Metal Crate Albedo.png using Guid(8dc0f763c33c2d043ac793f7dc4edb3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '118b9fcb07c79cf87ac9cbb76d21f1c9') in 0.0870817 seconds
+2026-03-26T05:37:06.071Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:06.071Z|0x10030|========================================================================
 Received Import Request.
   Time since last request: 0.000041 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
-  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:01.591Z|0x1348|Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c4ac9efda2cd57e965ea713ca2d7552') in 0.0285296 seconds
-2026-03-25T05:41:01.695Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/PBS Barrels and Crates/Scripts/DestroyBelowY.cs
+  artifactKey: Guid(a93d3aa64bf274a71ac0009e12a3ad4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.085Z|0x10030|Start importing Assets/PBS Barrels and Crates/Scripts/DestroyBelowY.cs using Guid(a93d3aa64bf274a71ac0009e12a3ad4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea7221f75da673d6da6de7c8a7da341a') in 0.0184262 seconds
+2026-03-26T05:37:06.130Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-2026-03-25T05:41:01.695Z|0x1348|========================================================================
+2026-03-26T05:37:06.130Z|0x10030|========================================================================
 Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Scripts/Scriptable Objects/Gun Objects/AR/Shoot.anim
-  artifactKey: Guid(4c47bcfc1cc3e0b42b329b2aa51b2c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:01.714Z|0x1348|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/AR/Shoot.anim using Guid(4c47bcfc1cc3e0b42b329b2aa51b2c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cfa589f1272aff3022b0da104e4c30ef') in 0.0756733 seconds
-2026-03-25T05:41:01.836Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000041 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene/Crate Dry Crush.prefab
+  artifactKey: Guid(769a8db4354b247ceaee50e451d1f4b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.142Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/Crate Dry Crush.prefab using Guid(769a8db4354b247ceaee50e451d1f4b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33fe859d6c7cf9db9bcec73408ac1cab') in 0.0628483 seconds
+2026-03-26T05:37:06.236Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
 
-2026-03-25T05:41:01.836Z|0x1348|========================================================================
+2026-03-26T05:37:06.237Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Wet.mat
+  artifactKey: Guid(7d7a41cfaa3dc274ba8ed47d2c386f97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.253Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Wet.mat using Guid(7d7a41cfaa3dc274ba8ed47d2c386f97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28e8760b4c92ecb0b552463dd03cf14b') in 0.0489509 seconds
+2026-03-26T05:37:06.332Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:06.332Z|0x10030|========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
-  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:01.849Z|0x1348|Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '276f69521ccbc3c79f71baac1f8dbf18') in 0.0264453 seconds
-2026-03-25T05:41:01.906Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/PBS Barrels and Crates/Crate Wet_BrokenLarge.prefab
+  artifactKey: Guid(623666fadde7d4a5189587c942b5fb20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.342Z|0x10030|Start importing Assets/PBS Barrels and Crates/Crate Wet_BrokenLarge.prefab using Guid(623666fadde7d4a5189587c942b5fb20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6f489207da2cd53017508b034545cf0') in 0.0236762 seconds
+2026-03-26T05:37:06.395Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
 
-2026-03-25T05:41:01.906Z|0x1348|========================================================================
+2026-03-26T05:37:06.395Z|0x10030|========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/Bullets/Bullet_HalfShotgun.prefab
-  artifactKey: Guid(518d5eaa370c0cf4e93b4d03b6df306a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:01.918Z|0x1348|Start importing Assets/Prefabs/Bullets/Bullet_HalfShotgun.prefab using Guid(518d5eaa370c0cf4e93b4d03b6df306a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96f9096cb67702176eca206d23037aa3') in 0.125208 seconds
-2026-03-25T05:41:02.075Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000038 seconds.
+  path: Assets/PBS Barrels and Crates/Models/BarrelWithTap_Details.fbx
+  artifactKey: Guid(62ae913ad77ea43a4a44a12532faabe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.410Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/BarrelWithTap_Details.fbx using Guid(62ae913ad77ea43a4a44a12532faabe7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40851fd73cb497d3f67d46664f4481e5') in 0.0315846 seconds
+2026-03-26T05:37:06.467Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
-2026-03-25T05:41:02.075Z|0x1348|========================================================================
+2026-03-26T05:37:06.467Z|0x10030|========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/HalfShotgun.overrideController
-  artifactKey: Guid(befd212533980c14dbe1ee9665d9f958) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:02.089Z|0x1348|Start importing Assets/Scripts/Scriptable Objects/Gun Objects/HalfShotgun/HalfShotgun.overrideController using Guid(befd212533980c14dbe1ee9665d9f958) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb26c13248016f9216c41ccfaf285bc6') in 0.0252205 seconds
-2026-03-25T05:41:02.148Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 0.000041 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Hazmat Barrel 2 Collider.fbx
+  artifactKey: Guid(fd76867d1a3aaef49a6e7caccffada0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.479Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Hazmat Barrel 2 Collider.fbx using Guid(fd76867d1a3aaef49a6e7caccffada0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b07d2b480d1d3f576a4d10fc1d20da1') in 0.0310938 seconds
+2026-03-26T05:37:06.535Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
-2026-03-25T05:41:02.149Z|0x1348|========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
-  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:02.163Z|0x1348|Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2f3df849fcb90f6475ce2a261ae64c9') in 0.0191837 seconds
-2026-03-25T05:41:02.208Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-2026-03-25T05:41:02.208Z|0x1348|========================================================================
+2026-03-26T05:37:06.535Z|0x10030|========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
-  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:02.219Z|0x1348|Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '366fd77a737b13dee0066475f117ffa2') in 0.0243032 seconds
-2026-03-25T05:41:02.269Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/PBS Barrels and Crates/demo scene/Crate Dry Explode.prefab
+  artifactKey: Guid(6c84efdcaf8d5453692446f35ef4fa28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.546Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/Crate Dry Explode.prefab using Guid(6c84efdcaf8d5453692446f35ef4fa28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb1d51cd6f9a22e73125dfc54b83f03c') in 0.0426886 seconds
+2026-03-26T05:37:06.612Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 316
 
-2026-03-25T05:41:02.269Z|0x1348|========================================================================
+2026-03-26T05:37:06.612Z|0x10030|========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/Bullets/Bullet_Pistol.prefab
-  artifactKey: Guid(a067f25cbd1028148beb4f09ba880e8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-2026-03-25T05:41:02.280Z|0x1348|Start importing Assets/Prefabs/Bullets/Bullet_Pistol.prefab using Guid(a067f25cbd1028148beb4f09ba880e8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cec95d6f04185a7c1321bda9648b187d') in 0.0333254 seconds
-2026-03-25T05:41:02.342Z|0x1348|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  Time since last request: 0.000041 seconds.
+  path: Assets/PBS Barrels and Crates/PickleBarrel_BreakingParts.prefab
+  artifactKey: Guid(c6dc50849368345e997b24862b2747c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.624Z|0x10030|Start importing Assets/PBS Barrels and Crates/PickleBarrel_BreakingParts.prefab using Guid(c6dc50849368345e997b24862b2747c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c8c1b89850f1842dfeb7d501c05df91') in 0.0215777 seconds
+2026-03-26T05:37:06.671Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
 
-2026-03-25T05:42:02.315Z|0x7b84|Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-2026-03-25T05:42:02.379Z|0x1348|AssetImportWorker is now disconnected from the server
-2026-03-25T05:42:02.379Z|0x1348|Process exiting
-2026-03-25T05:42:02.379Z|0x1348|Exiting without the bug reporter. Application will terminate with return code 0
+2026-03-26T05:37:06.671Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures
+  artifactKey: Guid(ef4d1350ddae0a04ab7c517cba8fc07c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.682Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures using Guid(ef4d1350ddae0a04ab7c517cba8fc07c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f290dc182e8951c06621f709f77667f') in 0.0132362 seconds
+2026-03-26T05:37:06.720Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:06.720Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Barrel Medium Wet.mat
+  artifactKey: Guid(9522b45a9ff376e488288f1c66cd3c71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.733Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Barrel Medium Wet.mat using Guid(9522b45a9ff376e488288f1c66cd3c71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0107506c7369c4df36018c6bcc79e0bf') in 0.0382646 seconds
+2026-03-26T05:37:06.796Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:06.797Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PBS Barrels and Crates/Crate Dry Mobile.prefab
+  artifactKey: Guid(4cd38b6190110bf428e083b590c665bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.809Z|0x10030|Start importing Assets/PBS Barrels and Crates/Crate Dry Mobile.prefab using Guid(4cd38b6190110bf428e083b590c665bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfa3c27343074a385196c4ba8c1e2c51') in 0.0263152 seconds
+2026-03-26T05:37:06.869Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+2026-03-26T05:37:06.869Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PBS Barrels and Crates/BarrelWithTap.prefab
+  artifactKey: Guid(90f9cc82ef35147b0808e31ae0f39a09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.882Z|0x10030|Start importing Assets/PBS Barrels and Crates/BarrelWithTap.prefab using Guid(90f9cc82ef35147b0808e31ae0f39a09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2363acbb24efd4fe2b576a25facbd30') in 0.0254979 seconds
+2026-03-26T05:37:06.936Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+2026-03-26T05:37:06.936Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/demo text wet.mat
+  artifactKey: Guid(65fe533a4ba385b4a811eec8689c7f01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:06.948Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/demo text wet.mat using Guid(65fe533a4ba385b4a811eec8689c7f01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd01c8a8b6d5cdc53a09a61a2d9581eee') in 0.0156936 seconds
+2026-03-26T05:37:06.991Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:06.991Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PBS Dry Crate.mat
+  artifactKey: Guid(8143588dfcb8cd64193b09195e89acf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.002Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PBS Dry Crate.mat using Guid(8143588dfcb8cd64193b09195e89acf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5ad0067ab09b379fcef9c2bb835942e') in 0.024267 seconds
+2026-03-26T05:37:07.053Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+2026-03-26T05:37:07.053Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/PickleBarrel_Metallic3.tga
+  artifactKey: Guid(c3aa77c014dcb4ae5b458e408fb1cf8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.066Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/PickleBarrel_Metallic3.tga using Guid(c3aa77c014dcb4ae5b458e408fb1cf8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '552233034a933d71a296a662d5e979f1') in 0.028468 seconds
+2026-03-26T05:37:07.119Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:07.119Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene/Pickle Barrel Decimation Hit.prefab
+  artifactKey: Guid(f0959e518de0b4b32b1c36d2daa72156) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.130Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/Pickle Barrel Decimation Hit.prefab using Guid(f0959e518de0b4b32b1c36d2daa72156) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d73eb633e1e26f9094de406e5cd5b42') in 0.0378271 seconds
+2026-03-26T05:37:07.205Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+2026-03-26T05:37:07.206Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/Barrel Wet.prefab
+  artifactKey: Guid(ac5ff7272f7402247a04db6a1e2b4401) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.218Z|0x10030|Start importing Assets/PBS Barrels and Crates/Barrel Wet.prefab using Guid(ac5ff7272f7402247a04db6a1e2b4401) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62a104de1c0bdad35638e70aa2e27607') in 0.0286455 seconds
+2026-03-26T05:37:07.278Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+2026-03-26T05:37:07.279Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/BarrelWithTap_Details_Metallic.png
+  artifactKey: Guid(60c00da1d89154343ba04dfac7f13720) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.290Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/BarrelWithTap_Details_Metallic.png using Guid(60c00da1d89154343ba04dfac7f13720) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2ac7e48d65092b5c3d2e4b55b9c4d8b') in 0.0281133 seconds
+2026-03-26T05:37:07.343Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:07.343Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Barrel Collider.fbx
+  artifactKey: Guid(deb8a4d5f3ea54f43a84576a93d357f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.356Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Barrel Collider.fbx using Guid(deb8a4d5f3ea54f43a84576a93d357f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e2d60d739ccb06dbcc797d9d8e48eed') in 0.0361945 seconds
+2026-03-26T05:37:07.423Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+2026-03-26T05:37:07.424Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PBS Barrels and Crates/Scripts/DestroyOnClick.cs
+  artifactKey: Guid(9213d3b28856047fa85ccd9d92e8380f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.437Z|0x10030|Start importing Assets/PBS Barrels and Crates/Scripts/DestroyOnClick.cs using Guid(9213d3b28856047fa85ccd9d92e8380f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c46aa97517f10db465c15ae01aaf2c25') in 0.016771 seconds
+2026-03-26T05:37:07.484Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2026-03-26T05:37:07.484Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBS Barrels and Crates/Models/HazmatBarrel_broken.fbx
+  artifactKey: Guid(ea992c052defb494a8f0372647c32284) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.498Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/HazmatBarrel_broken.fbx using Guid(ea992c052defb494a8f0372647c32284) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2abc02a24a360721df00de64176a8c9c') in 0.0623561 seconds
+2026-03-26T05:37:07.590Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+2026-03-26T05:37:07.590Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PBS Barrels and Crates/Decimation.unity
+  artifactKey: Guid(b14ff93b267ab4d81a4c6dc5c583faf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.604Z|0x10030|Start importing Assets/PBS Barrels and Crates/Decimation.unity using Guid(b14ff93b267ab4d81a4c6dc5c583faf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39acdada806fad46cc543cf0c4883bcb') in 0.0178017 seconds
+2026-03-26T05:37:07.652Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:07.652Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene/ReflectionProbe-0.exr
+  artifactKey: Guid(697a1751cb1e3e64ab80e5d42d35ef43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.666Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/ReflectionProbe-0.exr using Guid(697a1751cb1e3e64ab80e5d42d35ef43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc741030068079afa8bc89cb3fcbf5a2') in 0.0317779 seconds
+2026-03-26T05:37:07.729Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:07.729Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene/Skybox.mat
+  artifactKey: Guid(1a7fff0604d7a4217adcf43b00f77d56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.743Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/Skybox.mat using Guid(1a7fff0604d7a4217adcf43b00f77d56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5267e3669ed84488c0c786cd0ccc56a5') in 0.0182769 seconds
+2026-03-26T05:37:07.790Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:07.790Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene/Metal Crate Decimation Hit.prefab
+  artifactKey: Guid(49f9a063836794b23b1a65025f796468) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.804Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/Metal Crate Decimation Hit.prefab using Guid(49f9a063836794b23b1a65025f796468) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5d64e37f0770643088b0ad1357ac8a9') in 0.0411514 seconds
+2026-03-26T05:37:07.876Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 232
+
+2026-03-26T05:37:07.877Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Gold.mat
+  artifactKey: Guid(65b2a8c8aa3bb4177bd17e69b6e164fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.891Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Gold.mat using Guid(65b2a8c8aa3bb4177bd17e69b6e164fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf052f8e7fd782c59c9fd84c0b05c9aa') in 0.0171631 seconds
+2026-03-26T05:37:07.943Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:07.943Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Hazmat Barrel.fbx
+  artifactKey: Guid(e2178f313f097f04fb29b3f9d75d2f6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:07.955Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Hazmat Barrel.fbx using Guid(e2178f313f097f04fb29b3f9d75d2f6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9edf94061ba339f858e91096961fe78f') in 0.0297191 seconds
+2026-03-26T05:37:08.011Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+2026-03-26T05:37:08.011Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PBS Barrels and Crates/Crate Wet.prefab
+  artifactKey: Guid(3144ecc6bb1d3754d94a36e03e2d0a38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.023Z|0x10030|Start importing Assets/PBS Barrels and Crates/Crate Wet.prefab using Guid(3144ecc6bb1d3754d94a36e03e2d0a38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e99fc7fa10b3d090f38f980dc24e3a0c') in 0.0261556 seconds
+2026-03-26T05:37:08.078Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+2026-03-26T05:37:08.078Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/HazMat Barrel Normals.png
+  artifactKey: Guid(79afbd0d68e70c1489fa0f160d7dcc34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.089Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/HazMat Barrel Normals.png using Guid(79afbd0d68e70c1489fa0f160d7dcc34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c12f4ebbf6486e91fbb0e8b44603abbb') in 0.0352694 seconds
+2026-03-26T05:37:08.151Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:08.152Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Metal Crate Model 1.fbx
+  artifactKey: Guid(0360115456ba3414ea32d5f74db246af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.165Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Metal Crate Model 1.fbx using Guid(0360115456ba3414ea32d5f74db246af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f42dec1480e185fdd1e29e576c3d0e0f') in 0.0303941 seconds
+2026-03-26T05:37:08.220Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+2026-03-26T05:37:08.220Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Realistic_Barrel_Medium.fbx
+  artifactKey: Guid(8adc267b39ef16b48aceaaad5a501fdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.233Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Realistic_Barrel_Medium.fbx using Guid(8adc267b39ef16b48aceaaad5a501fdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08736071d408feb746983a675dd9e349') in 0.0299784 seconds
+2026-03-26T05:37:08.289Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+2026-03-26T05:37:08.289Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Dry Crate.mat
+  artifactKey: Guid(0c3081a9ad933a249b7b2a9668cdd3ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.300Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Dry Crate.mat using Guid(0c3081a9ad933a249b7b2a9668cdd3ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2fc71143494128d196fcaba7bae3f5af') in 0.0606158 seconds
+2026-03-26T05:37:08.385Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:08.385Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene/Metal Crate Decimation Click.prefab
+  artifactKey: Guid(5857e6b5dd99c4aa8be848f823923d4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.399Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/Metal Crate Decimation Click.prefab using Guid(5857e6b5dd99c4aa8be848f823923d4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7975aa979ab4138c887cda312607746e') in 0.0298121 seconds
+2026-03-26T05:37:08.456Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 232
+
+2026-03-26T05:37:08.457Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Barrel Medium Dry.mat
+  artifactKey: Guid(1535d1f6a60835e4cb52663a8ba731c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.468Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Barrel Medium Dry.mat using Guid(1535d1f6a60835e4cb52663a8ba731c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bceaa3ed62633ef57496a493674cdbaf') in 0.028686 seconds
+2026-03-26T05:37:08.522Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:08.522Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PBS Barrels and Crates/Models/PickleBarrelLid.fbx
+  artifactKey: Guid(d8c31ede15a4e419eb5d77a413dd813a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.536Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/PickleBarrelLid.fbx using Guid(d8c31ede15a4e419eb5d77a413dd813a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bd34bc33e175eaf5b7eac4533ba0e59') in 0.0309852 seconds
+2026-03-26T05:37:08.592Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+2026-03-26T05:37:08.592Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_color.png
+  artifactKey: Guid(4888d3fcc01f4924985a929a90417930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.606Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_color.png using Guid(4888d3fcc01f4924985a929a90417930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41d94b0c738da4ea1d1ad6dfe29b92ef') in 0.0252784 seconds
+2026-03-26T05:37:08.656Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:08.656Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PBS Barrels and Crates/Crate Wet_BrokenSmall.prefab
+  artifactKey: Guid(8f619d16939114f14b8f1f9b4150469a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.666Z|0x10030|Start importing Assets/PBS Barrels and Crates/Crate Wet_BrokenSmall.prefab using Guid(8f619d16939114f14b8f1f9b4150469a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd9a91e6e0dec15d805b835990a9f8a6') in 0.0234579 seconds
+2026-03-26T05:37:08.719Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 306
+
+2026-03-26T05:37:08.719Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene/Barrel Hazmat Exploding.prefab
+  artifactKey: Guid(6cd8210301fbd4d6e94f5e7cabd66954) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.733Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/Barrel Hazmat Exploding.prefab using Guid(6cd8210301fbd4d6e94f5e7cabd66954) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '658201eb73b2301550d5e8db2fa22c05') in 0.0354879 seconds
+2026-03-26T05:37:08.796Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+2026-03-26T05:37:08.797Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/Garbage Crate Normals.png
+  artifactKey: Guid(cd6205e806c300442ac305947d8d6e4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.808Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/Garbage Crate Normals.png using Guid(cd6205e806c300442ac305947d8d6e4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d96753ff841659478119bcd3f9e9562') in 0.0334346 seconds
+2026-03-26T05:37:08.868Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:08.868Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/PickleBarrel_AO2.png
+  artifactKey: Guid(20264760de9594891ae0e60c13d58402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.884Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/PickleBarrel_AO2.png using Guid(20264760de9594891ae0e60c13d58402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '820674f391b06bd54e2c673d52505836') in 0.0267182 seconds
+2026-03-26T05:37:08.937Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:08.937Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_mobile_metallic_dry.png
+  artifactKey: Guid(16582cbb15f18084c8548a8225abceb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:08.948Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_mobile_metallic_dry.png using Guid(16582cbb15f18084c8548a8225abceb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f1da77897f838ee6735759ba81f17cd') in 0.0254661 seconds
+2026-03-26T05:37:08.996Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:08.996Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/PickleBarrelBevel_Normals1.tga
+  artifactKey: Guid(34de8e50aa76048bbad73436dca6f176) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.008Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/PickleBarrelBevel_Normals1.tga using Guid(34de8e50aa76048bbad73436dca6f176) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd91ac6803e33e5c43fae6d8d59d3a798') in 0.0263765 seconds
+2026-03-26T05:37:09.059Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.059Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/WoodenBoards6.png
+  artifactKey: Guid(0162fdc4d739f4a169bcba53bd236081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.072Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/WoodenBoards6.png using Guid(0162fdc4d739f4a169bcba53bd236081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97c5923d473c22a2bf335f77089b2e70') in 0.0253505 seconds
+2026-03-26T05:37:09.126Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.126Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene/Materials
+  artifactKey: Guid(233640195059c4d4aa1e3bcf15c543fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.143Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/Materials using Guid(233640195059c4d4aa1e3bcf15c543fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e5c4dd1139d926daafd71590587373a') in 0.0163091 seconds
+2026-03-26T05:37:09.184Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.184Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBS Barrels and Crates/Models/demo text.fbx
+  artifactKey: Guid(331917b776865a449924879af10c5909) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.195Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/demo text.fbx using Guid(331917b776865a449924879af10c5909) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3824d0d1512fc23eebb4bb07229909d') in 0.0289271 seconds
+2026-03-26T05:37:09.250Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+2026-03-26T05:37:09.250Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_medium_metallic.png
+  artifactKey: Guid(deee0814b0ca99b44917fb40af5f1b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.261Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_medium_metallic.png using Guid(deee0814b0ca99b44917fb40af5f1b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3155726778444cdfa14e158cf057dbcd') in 0.0294633 seconds
+2026-03-26T05:37:09.319Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.320Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PBS Barrels and Crates/HazmatBarrel_broken.prefab
+  artifactKey: Guid(d08ee49efa97244df84e90c3e43c597a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.331Z|0x10030|Start importing Assets/PBS Barrels and Crates/HazmatBarrel_broken.prefab using Guid(d08ee49efa97244df84e90c3e43c597a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f7a6984a1f34164d999308bd5b0919c') in 0.0215417 seconds
+2026-03-26T05:37:09.378Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
+
+2026-03-26T05:37:09.378Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/BarrelWithTap_Normals.png
+  artifactKey: Guid(8b2082cfa63c64654a4ef952f1a76456) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.389Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/BarrelWithTap_Normals.png using Guid(8b2082cfa63c64654a4ef952f1a76456) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c763b306ac4beaba8e35f8b909769464') in 0.0292712 seconds
+2026-03-26T05:37:09.448Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.448Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/BarrelWithTap_Albedo1.png
+  artifactKey: Guid(671f83a85861f4bb795abd11570993dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.459Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/BarrelWithTap_Albedo1.png using Guid(671f83a85861f4bb795abd11570993dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a656bf14a1f862ebe5eb7477f91f456') in 0.0306283 seconds
+2026-03-26T05:37:09.519Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.519Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/BarrelWithTapDetails.mat
+  artifactKey: Guid(50d5c2aacf2eb4003835caff67c97e7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.529Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/BarrelWithTapDetails.mat using Guid(50d5c2aacf2eb4003835caff67c97e7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b37f71319d9af6a0a57420f54e33c3fb') in 0.0314581 seconds
+2026-03-26T05:37:09.586Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+2026-03-26T05:37:09.587Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/demo skybox.mat
+  artifactKey: Guid(17cf8b28b4b775748ac9242b382ce804) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.598Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/demo skybox.mat using Guid(17cf8b28b4b775748ac9242b382ce804) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5775e39e1da9db4a90ada7564e6972aa') in 0.0164828 seconds
+2026-03-26T05:37:09.640Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.640Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBS Barrels and Crates/Crate Dry.prefab
+  artifactKey: Guid(431c7b6a6c1d83844af83c2827df1bdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.651Z|0x10030|Start importing Assets/PBS Barrels and Crates/Crate Dry.prefab using Guid(431c7b6a6c1d83844af83c2827df1bdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39064a5f3004b27493320421fae9080c') in 0.0230903 seconds
+2026-03-26T05:37:09.697Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+2026-03-26T05:37:09.698Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/PickleBarrel_Albedo1.tga
+  artifactKey: Guid(769dc323a02e646b18d4ed8b5d38792e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.711Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/PickleBarrel_Albedo1.tga using Guid(769dc323a02e646b18d4ed8b5d38792e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '896eabab8681dad746aebc39207d6d22') in 0.0256094 seconds
+2026-03-26T05:37:09.764Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.764Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Wood.mat
+  artifactKey: Guid(a727ae0c3515a45b6bad8af44cdb1b10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.775Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Wood.mat using Guid(a727ae0c3515a45b6bad8af44cdb1b10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00fb22ddb5ec3fefa8ae3ef2fd1cb22e') in 0.0167237 seconds
+2026-03-26T05:37:09.822Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.822Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene/flipped_sphere.fbx
+  artifactKey: Guid(be1d1cb8b15f5471f8c9bf17f16d9121) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.833Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene/flipped_sphere.fbx using Guid(be1d1cb8b15f5471f8c9bf17f16d9121) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06847cabe39770281cd2c92565d89505') in 0.0269236 seconds
+2026-03-26T05:37:09.886Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+2026-03-26T05:37:09.886Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/Crate Displacement.png
+  artifactKey: Guid(8e7f381c73f0dcd4e8e3bced5d1006b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.897Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/Crate Displacement.png using Guid(8e7f381c73f0dcd4e8e3bced5d1006b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80745c92a0418008df190469d13d1117') in 0.0254131 seconds
+2026-03-26T05:37:09.947Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:09.947Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PBS Barrels and Crates/Models/WoodenCrates_BrokenSmall.fbx
+  artifactKey: Guid(8f3185f2ab28845bc9cfa194aa4a1292) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:09.958Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/WoodenCrates_BrokenSmall.fbx using Guid(8f3185f2ab28845bc9cfa194aa4a1292) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '246537a0564c481dd4b02757ab9c2510') in 0.1113684 seconds
+2026-03-26T05:37:10.105Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+2026-03-26T05:37:10.105Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/Barrel Wet Mobile.prefab
+  artifactKey: Guid(e570537168a0c4e4f98eff6f5b5bbb9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.117Z|0x10030|Start importing Assets/PBS Barrels and Crates/Barrel Wet Mobile.prefab using Guid(e570537168a0c4e4f98eff6f5b5bbb9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f02b335d23e1bcb8bfef8e82990957c') in 0.0240662 seconds
+2026-03-26T05:37:10.171Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+2026-03-26T05:37:10.171Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PBS Barrels and Crates/Crate Garbage.prefab
+  artifactKey: Guid(18d0b6ee1f2e9b8438585e4a6dae2921) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.184Z|0x10030|Start importing Assets/PBS Barrels and Crates/Crate Garbage.prefab using Guid(18d0b6ee1f2e9b8438585e4a6dae2921) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79b2103ab7f01e8144e26789291cb678') in 0.022198 seconds
+2026-03-26T05:37:10.236Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+2026-03-26T05:37:10.236Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/Crate Occlusion Highpoly.png
+  artifactKey: Guid(9a23bc4b29242194393a742ad26a5e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.247Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/Crate Occlusion Highpoly.png using Guid(9a23bc4b29242194393a742ad26a5e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4fd592feb2cfafa4bfc2c3b9dfdbbfd') in 0.026209 seconds
+2026-03-26T05:37:10.296Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:10.296Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PBS Barrels and Crates/Barrel Dry Mediumpoly.prefab
+  artifactKey: Guid(6c88f13e6ee82414595ce8cff7d2093e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.308Z|0x10030|Start importing Assets/PBS Barrels and Crates/Barrel Dry Mediumpoly.prefab using Guid(6c88f13e6ee82414595ce8cff7d2093e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '184ee73e0d78abd559fd4b988872692c') in 0.0251575 seconds
+2026-03-26T05:37:10.365Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+2026-03-26T05:37:10.366Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_medium_metallic_wet.png
+  artifactKey: Guid(eeed0940151c34f49a2ff6bd515dd757) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.377Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_medium_metallic_wet.png using Guid(eeed0940151c34f49a2ff6bd515dd757) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1516d95bb8a471e55d2f51bdd8c87369') in 0.0284968 seconds
+2026-03-26T05:37:10.431Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:10.431Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Metal Crate.mat
+  artifactKey: Guid(18655a456c450a141a70eba718437e07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.441Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Metal Crate.mat using Guid(18655a456c450a141a70eba718437e07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58beecfa476a62129de3642e4e4426ca') in 0.0604295 seconds
+2026-03-26T05:37:10.527Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:10.527Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PBS Barrels and Crates/Scripts/ExplodeBarrel.cs
+  artifactKey: Guid(c16cddbb3a58849a2966d50f2084408b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.540Z|0x10030|Start importing Assets/PBS Barrels and Crates/Scripts/ExplodeBarrel.cs using Guid(c16cddbb3a58849a2966d50f2084408b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f6b8635afe43da4f03b843b99970182') in 0.0150241 seconds
+2026-03-26T05:37:10.592Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2026-03-26T05:37:10.592Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/WoodDarkRough.mat
+  artifactKey: Guid(e97a87f13e7714fbba5d6bd36759f8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.606Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/WoodDarkRough.mat using Guid(e97a87f13e7714fbba5d6bd36759f8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '475c6d57b4d6fd2fed91acf765940475') in 0.0175498 seconds
+2026-03-26T05:37:10.652Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:10.652Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_occlusion.png
+  artifactKey: Guid(c59a6eb9f237f4142910a3e4f4406edb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.663Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_occlusion.png using Guid(c59a6eb9f237f4142910a3e4f4406edb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c1d8a66689c6775996a919ecaba92fc') in 0.0309344 seconds
+2026-03-26T05:37:10.719Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:10.719Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_medium_normals.png
+  artifactKey: Guid(a21545112a625384ab7af583fd01c1eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.734Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_medium_normals.png using Guid(a21545112a625384ab7af583fd01c1eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72408a67360101e20bce34a4de74d131') in 0.0379441 seconds
+2026-03-26T05:37:10.800Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:10.800Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/Scripts/CrateGridBuilder.cs
+  artifactKey: Guid(ce80ec15170904dfd819be4055b24490) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.812Z|0x10030|Start importing Assets/PBS Barrels and Crates/Scripts/CrateGridBuilder.cs using Guid(ce80ec15170904dfd819be4055b24490) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df859a3a115bb170d55d317145331045') in 0.0151501 seconds
+2026-03-26T05:37:10.856Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2026-03-26T05:37:10.856Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PBS Barrel Dry.mat
+  artifactKey: Guid(3678f2b70202bfc44babed26d5b29866) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.868Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PBS Barrel Dry.mat using Guid(3678f2b70202bfc44babed26d5b29866) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c10dc50d560590660f0058e266ee907') in 0.0519826 seconds
+2026-03-26T05:37:10.948Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:10.948Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Dry.mat
+  artifactKey: Guid(9fc51081c4311014c8ddaaea2c5a3ebd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:10.959Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Dry.mat using Guid(9fc51081c4311014c8ddaaea2c5a3ebd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '313a6f700f1d480a4600c67cf233f6c5') in 0.0224225 seconds
+2026-03-26T05:37:11.008Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:11.008Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Wet Crate.mat
+  artifactKey: Guid(ead71dd9abd42a540874524011bbc701) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:11.019Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Wet Crate.mat using Guid(ead71dd9abd42a540874524011bbc701) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9f238ee4e512f930792ec3a1571c297') in 0.0251833 seconds
+2026-03-26T05:37:11.070Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:11.070Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_mobile_albedo.png
+  artifactKey: Guid(9817452421a99fe42a29963e98165773) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:11.081Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_mobile_albedo.png using Guid(9817452421a99fe42a29963e98165773) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8562594649f6ae753e7f7e1d20bc0d4') in 0.0290396 seconds
+2026-03-26T05:37:11.135Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:11.135Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_medium_occlusion.png
+  artifactKey: Guid(8f317b093f09c464990c242a65b38899) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:11.147Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/barrel_medium_occlusion.png using Guid(8f317b093f09c464990c242a65b38899) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f1cc16019657212ac374a64a6711433') in 0.0253175 seconds
+2026-03-26T05:37:11.199Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:11.199Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Textures/Metal Crate AO.png
+  artifactKey: Guid(293237e4ac2c6894abc2eb12a10bd98f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:11.210Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Textures/Metal Crate AO.png using Guid(293237e4ac2c6894abc2eb12a10bd98f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '915caa193447f0bd58dfd9f4cb7669e4') in 0.0251505 seconds
+2026-03-26T05:37:11.259Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:11.259Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PBS Barrels and Crates/demo scene.unity
+  artifactKey: Guid(228cca436b33fef4bb84bfdab5f84d07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:11.270Z|0x10030|Start importing Assets/PBS Barrels and Crates/demo scene.unity using Guid(228cca436b33fef4bb84bfdab5f84d07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dade598c2d0abb4e55ed3be3b18c024c') in 0.0172385 seconds
+2026-03-26T05:37:11.313Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:17.370Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 6.057088 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Barrel Medium Dry.mat
+  artifactKey: Guid(1535d1f6a60835e4cb52663a8ba731c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:17.380Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Barrel Medium Dry.mat using Guid(1535d1f6a60835e4cb52663a8ba731c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91b4bc3732e96907e99173b6c467aa0c') in 0.0292702 seconds
+2026-03-26T05:37:17.434Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:24.402Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 6.968101 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Wet.mat
+  artifactKey: Guid(7d7a41cfaa3dc274ba8ed47d2c386f97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:24.412Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PBS Mobile Wet.mat using Guid(7d7a41cfaa3dc274ba8ed47d2c386f97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f1c7244de90cfbab64c20ff3fda2d3d') in 0.0316914 seconds
+2026-03-26T05:37:24.470Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:24.470Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Material.mat
+  artifactKey: Guid(2e9b78446a7044b33a0a9676a8e20a51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:24.480Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Material.mat using Guid(2e9b78446a7044b33a0a9676a8e20a51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22e9b51a7ccc88a7bb5a4d8b100e336b') in 0.0164125 seconds
+2026-03-26T05:37:24.521Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:24.521Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PBS Dry Crate.mat
+  artifactKey: Guid(8143588dfcb8cd64193b09195e89acf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:24.533Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PBS Dry Crate.mat using Guid(8143588dfcb8cd64193b09195e89acf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06a19d4ee6051383113e65ce24349f66') in 0.0281933 seconds
+2026-03-26T05:37:24.591Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+2026-03-26T05:37:24.591Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Barrel_Medium.mat
+  artifactKey: Guid(8f97cf52c1d954fc6b8a9e72fc64716c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:24.603Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Barrel_Medium.mat using Guid(8f97cf52c1d954fc6b8a9e72fc64716c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8714fa1e9280f65e75a78979ce6455b0') in 0.020288 seconds
+2026-03-26T05:37:24.669Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:24.669Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PickleBarrel.mat
+  artifactKey: Guid(bfdb6063aff9644dd8d2515ddc61f97b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:24.681Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PickleBarrel.mat using Guid(bfdb6063aff9644dd8d2515ddc61f97b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7700e7fdfbb40edaa0dc6ecd1890baff') in 0.0389315 seconds
+2026-03-26T05:37:24.754Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+2026-03-26T05:37:24.754Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/PBS Barrel Wet.mat
+  artifactKey: Guid(4f0d0b6d855e8c541b1e54ff20f20ee2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:24.766Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/PBS Barrel Wet.mat using Guid(4f0d0b6d855e8c541b1e54ff20f20ee2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d3d6127428b6c5f0d54ba1e8db5e411') in 0.040229 seconds
+2026-03-26T05:37:24.839Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+2026-03-26T05:37:24.839Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/BarrelWithTapDetails.mat
+  artifactKey: Guid(50d5c2aacf2eb4003835caff67c97e7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:24.853Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/BarrelWithTapDetails.mat using Guid(50d5c2aacf2eb4003835caff67c97e7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4abbac12eedd46d4679370ff9411901a') in 0.0281252 seconds
+2026-03-26T05:37:24.910Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+2026-03-26T05:37:24.911Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/AnimationUprising/Strider/Demo/Models/Ellen/Materials/Ellen_Tear_Mat.mat
+  artifactKey: Guid(f4c868f611aae16448d369b0bf66a723) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:24.923Z|0x10030|Start importing Assets/Plugins/AnimationUprising/Strider/Demo/Models/Ellen/Materials/Ellen_Tear_Mat.mat using Guid(f4c868f611aae16448d369b0bf66a723) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d9cd81137bac09b73a66816d8af3a57') in 0.0196483 seconds
+2026-03-26T05:37:24.969Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:37:24.969Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/demo wood mat.mat
+  artifactKey: Guid(d36bec8a8e2385640affb033f6cfc554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:24.982Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/demo wood mat.mat using Guid(d36bec8a8e2385640affb033f6cfc554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c224443f7270ad05b8ac0083a9384a51') in 0.0174357 seconds
+2026-03-26T05:37:25.027Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+2026-03-26T05:37:25.028Z|0x10030|========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PBS Barrels and Crates/Models/Materials/Wooden Boards.mat
+  artifactKey: Guid(778c3707c05fb40cca449e13715296c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+2026-03-26T05:37:25.040Z|0x10030|Start importing Assets/PBS Barrels and Crates/Models/Materials/Wooden Boards.mat using Guid(778c3707c05fb40cca449e13715296c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '004ac6aa62cc4591a7b7c09a174cbd27') in 0.0211406 seconds
+2026-03-26T05:37:25.097Z|0x10030|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+2026-03-26T05:38:30.047Z|0x112d4|Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+2026-03-26T05:38:30.168Z|0x10030|AssetImportWorker is now disconnected from the server
+2026-03-26T05:38:30.168Z|0x10030|Process exiting
+2026-03-26T05:38:30.168Z|0x10030|Exiting without the bug reporter. Application will terminate with return code 0

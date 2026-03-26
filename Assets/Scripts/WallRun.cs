@@ -58,13 +58,16 @@ public class WallRun : MonoBehaviour
 
         if (CanWallRun())
         {
-            wallTimer += Time.deltaTime;
-            if (wallTimer > maxWallRunTime)
-            {
-                JumpFromWall();
-                StopWallRun();
-                return;
-            }
+            // if (wallLeft || wallRight)
+            // {
+            //     wallTimer += Time.deltaTime;
+            //     if (wallTimer > maxWallRunTime)
+            //     {
+            //         JumpFromWall();
+            //         StopWallRun();
+            //         return;
+            //     }
+            // }
 
             if (wallLeft)
             {
@@ -129,7 +132,7 @@ public class WallRun : MonoBehaviour
     {
         rb.useGravity = true;
 
-        cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, fov, wallRunfovTime * Time.deltaTime);
+        virtualCamera.Lens.FieldOfView = Mathf.Lerp(virtualCamera.Lens.FieldOfView, fov, wallRunfovTime * Time.deltaTime);
         tilt = Mathf.Lerp(tilt, 0, camTiltTime * Time.deltaTime);
         wallTimer = 0f;
     }

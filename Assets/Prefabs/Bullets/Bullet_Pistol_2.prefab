@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6751302774209831222}
   - component: {fileID: 3150016335887063420}
   - component: {fileID: 6327094460381002365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Bullet_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 504510284418696551}
   - component: {fileID: -308422753537858281}
   - component: {fileID: -396454994434982903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bullet_Pistol_2
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!114 &-396454994434982903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,3 +172,4 @@ MonoBehaviour:
     m_Bits: 4294967295
   deactivateOnHit: 1
   impactEffectPrefab: {fileID: 0}
+  _trailRenderer: {fileID: 0}
